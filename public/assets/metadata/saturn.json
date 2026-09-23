@@ -1,0 +1,54 @@
+{
+  "id": "saturn",
+  "name": "Saturn",
+  "category": "solar-system",
+  "type": "gas-giant",
+  "description": "Second-largest planet, ringed gas giant with subtle atmospheric banding and complex ring dynamics.",
+  "assets": {
+    "color": "/assets/solar-system/saturn/color.webp",
+    "normal": null,
+    "height": null,
+    "roughness": null,
+    "clouds": null,
+    "atmosphere": null,
+    "preview": "/assets/solar-system/saturn/preview.webp",
+    "high": null,
+    "rings": "/assets/solar-system/saturn/rings.webp"
+  },
+  "source": {
+    "organization": "NASA / JPL / Space Science Institute",
+    "mission": "Cassini-Huygens Mission",
+    "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/saturn.png",
+    "rings_url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/saturn_rings_radial.png",
+    "referencePage": "https://photojournal.jpl.nasa.gov/target/Saturn",
+    "license": "Public Domain (NASA/JPL/SSI)",
+    "usageNotes": "Equirectangular atmospheric map and 1D radial ring optical depth/color profile."
+  },
+  "manifest": {
+    "source_color": {
+      "path": "assets-source/solar-system/saturn/source_color.png",
+      "resolution": "512x256",
+      "size_bytes": 110692,
+      "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/saturn.png",
+      "license": "Public Domain (NASA/JPL/SSI)"
+    },
+    "runtime_color": {
+      "path": "public/assets/solar-system/saturn/color.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 36580,
+      "format": "WebP (Q88)"
+    },
+    "runtime_preview": {
+      "path": "public/assets/solar-system/saturn/preview.webp",
+      "resolution": "512x256",
+      "size_bytes": 2370,
+      "format": "WebP (Q80)"
+    },
+    "runtime_rings": {
+      "path": "public/assets/solar-system/saturn/rings.webp",
+      "resolution": "256x2",
+      "size_bytes": 576,
+      "format": "WebP (Lossless Alpha)"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "ganymede",
+  "name": "Ganymede",
+  "category": "moons",
+  "type": "icy-differentiated",
+  "description": "Largest moon in the Solar System, possessing its own intrinsic magnetic dynamo, grooved terrain, and dark ancient crust.",
+  "assets": {
+    "color": "/assets/moons/ganymede/color.webp",
+    "normal": null,
+    "height": null,
+    "roughness": null,
+    "clouds": null,
+    "atmosphere": null,
+    "preview": "/assets/moons/ganymede/preview.webp",
+    "high": null
+  },
+  "source": {
+    "organization": "NASA / JPL / USGS Astrogeology",
+    "mission": "Galileo & Voyager Missions",
+    "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/ganymede.png",
+    "referencePage": "https://photojournal.jpl.nasa.gov/target/Ganymede",
+    "license": "Public Domain (NASA / USGS) / Oleg Pluton CC-BY 4.0",
+    "usageNotes": "Global mosaic illustrating bright tectonic grooved terrain and dark cratered polygon regions."
+  },
+  "manifest": {
+    "source_color": {
+      "path": "assets-source/moons/ganymede/source_color.png",
+      "resolution": "512x256",
+      "size_bytes": 165964,
+      "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/ganymede.png",
+      "license": "Public Domain (NASA / USGS) / Oleg Pluton CC-BY 4.0"
+    },
+    "runtime_color": {
+      "path": "public/assets/moons/ganymede/color.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 103058,
+      "format": "WebP (Q88)"
+    },
+    "runtime_preview": {
+      "path": "public/assets/moons/ganymede/preview.webp",
+      "resolution": "512x256",
+      "size_bytes": 14096,
+      "format": "WebP (Q80)"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "gas-giant",
+  "name": "Gas Giant",
+  "category": "procedural",
+  "type": "exoplanet-archetype",
+  "description": "Massive Jovian world featuring turbulent zonal jet streams, anticyclonic vortex storms, and ammonia-hydrosulfide cloud decks.",
+  "disclaimer": "Model visualization based on available planetary parameters. Not a direct image.",
+  "assets": {
+    "color": "/assets/procedural/gas-giant/color.webp",
+    "normal": "/assets/procedural/gas-giant/normal.webp",
+    "roughness": "/assets/procedural/gas-giant/roughness.webp",
+    "height": "/assets/procedural/gas-giant/height.webp",
+    "preview": "/assets/procedural/gas-giant/preview.webp",
+    "clouds": "/assets/procedural/gas-giant/clouds.webp",
+    "atmosphere": null
+  },
+  "source": {
+    "organization": "COSMIC VALUE Mathematical Synthesizer",
+    "algorithm": "3D Spherical Coordinate Fractional Multi-Octave Fractal Noise Generator",
+    "projection": "Equirectangular 2:1 cylindrical",
+    "license": "MIT / Creative Commons CC0 (Educational Project Asset)"
+  },
+  "manifest": {
+    "runtime_color": {
+      "path": "public/assets/procedural/gas-giant/color.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 67902
+    },
+    "runtime_normal": {
+      "path": "public/assets/procedural/gas-giant/normal.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 133050
+    },
+    "runtime_roughness": {
+      "path": "public/assets/procedural/gas-giant/roughness.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 23154
+    },
+    "runtime_height": {
+      "path": "public/assets/procedural/gas-giant/height.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 67062
+    },
+    "runtime_preview": {
+      "path": "public/assets/procedural/gas-giant/preview.webp",
+      "resolution": "512x256",
+      "size_bytes": 7094
+    },
+    "runtime_clouds": {
+      "path": "public/assets/procedural/gas-giant/clouds.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 62358
+    }
+  }
+}

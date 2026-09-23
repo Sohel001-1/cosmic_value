@@ -1,0 +1,50 @@
+{
+  "id": "hot-jupiter",
+  "name": "Hot Jupiter",
+  "category": "procedural",
+  "type": "exoplanet-archetype",
+  "description": "Gas giant in ultra-short period orbit subjected to extreme stellar insolation, silicate vapor clouds, and dramatic day-night temperature gradients.",
+  "disclaimer": "Model visualization based on available planetary parameters. Not a direct image.",
+  "assets": {
+    "color": "/assets/procedural/hot-jupiter/color.webp",
+    "normal": "/assets/procedural/hot-jupiter/normal.webp",
+    "roughness": "/assets/procedural/hot-jupiter/roughness.webp",
+    "height": "/assets/procedural/hot-jupiter/height.webp",
+    "preview": "/assets/procedural/hot-jupiter/preview.webp",
+    "clouds": null,
+    "atmosphere": null
+  },
+  "source": {
+    "organization": "COSMIC VALUE Mathematical Synthesizer",
+    "algorithm": "3D Spherical Coordinate Fractional Multi-Octave Fractal Noise Generator",
+    "projection": "Equirectangular 2:1 cylindrical",
+    "license": "MIT / Creative Commons CC0 (Educational Project Asset)"
+  },
+  "manifest": {
+    "runtime_color": {
+      "path": "public/assets/procedural/hot-jupiter/color.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 84852
+    },
+    "runtime_normal": {
+      "path": "public/assets/procedural/hot-jupiter/normal.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 117874
+    },
+    "runtime_roughness": {
+      "path": "public/assets/procedural/hot-jupiter/roughness.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 22646
+    },
+    "runtime_height": {
+      "path": "public/assets/procedural/hot-jupiter/height.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 61304
+    },
+    "runtime_preview": {
+      "path": "public/assets/procedural/hot-jupiter/preview.webp",
+      "resolution": "512x256",
+      "size_bytes": 8958
+    }
+  }
+}

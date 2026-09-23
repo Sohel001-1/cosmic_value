@@ -1,0 +1,46 @@
+{
+  "id": "enceladus",
+  "name": "Enceladus",
+  "category": "moons",
+  "type": "cryovolcanic-ice",
+  "description": "Saturnian moon with high visual albedo, fresh water ice surface, and active cryovolcanic geysers erupting from south polar tiger stripes.",
+  "assets": {
+    "color": "/assets/moons/enceladus/color.webp",
+    "normal": null,
+    "height": null,
+    "roughness": null,
+    "clouds": null,
+    "atmosphere": null,
+    "preview": "/assets/moons/enceladus/preview.webp",
+    "high": null
+  },
+  "source": {
+    "organization": "NASA / JPL / Space Science Institute (CICLOPS Team)",
+    "mission": "Cassini Imaging Science Subsystem",
+    "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/enceladus.png",
+    "referencePage": "https://photojournal.jpl.nasa.gov/target/Enceladus",
+    "license": "Public Domain (NASA / CICLOPS / RVS)",
+    "usageNotes": "Equirectangular false-color and albedo mosaic of Enceladus surface features."
+  },
+  "manifest": {
+    "source_color": {
+      "path": "assets-source/moons/enceladus/source_color.png",
+      "resolution": "512x256",
+      "size_bytes": 174046,
+      "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/enceladus.png",
+      "license": "Public Domain (NASA / CICLOPS / RVS)"
+    },
+    "runtime_color": {
+      "path": "public/assets/moons/enceladus/color.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 181672,
+      "format": "WebP (Q88)"
+    },
+    "runtime_preview": {
+      "path": "public/assets/moons/enceladus/preview.webp",
+      "resolution": "512x256",
+      "size_bytes": 25252,
+      "format": "WebP (Q80)"
+    }
+  }
+}

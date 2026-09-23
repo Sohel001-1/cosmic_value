@@ -1,0 +1,46 @@
+{
+  "id": "callisto",
+  "name": "Callisto",
+  "category": "moons",
+  "type": "cratered-ice",
+  "description": "Outermost Galilean moon, heavily cratered ancient pristine surface showing minimal tectonic resurfacing.",
+  "assets": {
+    "color": "/assets/moons/callisto/color.webp",
+    "normal": null,
+    "height": null,
+    "roughness": null,
+    "clouds": null,
+    "atmosphere": null,
+    "preview": "/assets/moons/callisto/preview.webp",
+    "high": null
+  },
+  "source": {
+    "organization": "NASA / JPL / Planetary Data System (PDS)",
+    "mission": "Galileo SSI & Voyager",
+    "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/callisto.png",
+    "referencePage": "https://photojournal.jpl.nasa.gov/target/Callisto",
+    "license": "Public Domain (NASA/PDS) / John van Vliet",
+    "usageNotes": "Equirectangular mosaic from PDS calibrated archives depicting multiring impact basins Valhalla and Asgard."
+  },
+  "manifest": {
+    "source_color": {
+      "path": "assets-source/moons/callisto/source_color.png",
+      "resolution": "512x256",
+      "size_bytes": 217787,
+      "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/callisto.png",
+      "license": "Public Domain (NASA/PDS) / John van Vliet"
+    },
+    "runtime_color": {
+      "path": "public/assets/moons/callisto/color.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 155498,
+      "format": "WebP (Q88)"
+    },
+    "runtime_preview": {
+      "path": "public/assets/moons/callisto/preview.webp",
+      "resolution": "512x256",
+      "size_bytes": 21536,
+      "format": "WebP (Q80)"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "id": "earth",
+  "name": "Earth",
+  "category": "solar-system",
+  "type": "habitable-ocean",
+  "description": "Third planet from the Sun, home to liquid water oceans, dynamic atmospheric cloud systems, and life.",
+  "assets": {
+    "color": "/assets/solar-system/earth/color.webp",
+    "normal": null,
+    "height": null,
+    "roughness": null,
+    "clouds": "/assets/solar-system/earth/clouds.webp",
+    "atmosphere": null,
+    "preview": "/assets/solar-system/earth/preview.webp",
+    "high": null
+  },
+  "source": {
+    "organization": "NASA Goddard Space Flight Center / Visible Earth Team",
+    "mission": "Terra / Aqua MODIS (Blue Marble Next Generation)",
+    "url": "https://eoimages.gsfc.nasa.gov/images/imagerecords/57000/57752/land_shallow_topo_2048.jpg",
+    "clouds_url": "https://eoimages.gsfc.nasa.gov/images/imagerecords/57000/57747/cloud_combined_2048.jpg",
+    "referencePage": "https://visibleearth.nasa.gov/images/57752/blue-marble-land-surface-shallow-water-and-shaded-topography",
+    "license": "Public Domain (NASA / Reto Stockli)",
+    "usageNotes": "Equirectangular cylindrical projection. Clouds combined from MODIS satellite observations. Credit: Reto Stockli, NASA Earth Observatory."
+  },
+  "manifest": {
+    "source_color": {
+      "path": "assets-source/solar-system/earth/source_color.jpg",
+      "resolution": "2048x1024",
+      "size_bytes": 238676,
+      "url": "https://eoimages.gsfc.nasa.gov/images/imagerecords/57000/57752/land_shallow_topo_2048.jpg",
+      "license": "Public Domain (NASA / Reto Stockli)"
+    },
+    "runtime_color": {
+      "path": "public/assets/solar-system/earth/color.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 205484,
+      "format": "WebP (Q88)"
+    },
+    "runtime_preview": {
+      "path": "public/assets/solar-system/earth/preview.webp",
+      "resolution": "512x256",
+      "size_bytes": 15452,
+      "format": "WebP (Q80)"
+    },
+    "source_clouds": {
+      "path": "assets-source/solar-system/earth/source_clouds.jpg",
+      "resolution": "2048x1024",
+      "size_bytes": 829367,
+      "url": "https://eoimages.gsfc.nasa.gov/images/imagerecords/57000/57747/cloud_combined_2048.jpg"
+    },
+    "runtime_clouds": {
+      "path": "public/assets/solar-system/earth/clouds.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 512684,
+      "format": "WebP"
+    }
+  }
+}

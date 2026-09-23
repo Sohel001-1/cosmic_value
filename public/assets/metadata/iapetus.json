@@ -1,0 +1,46 @@
+{
+  "id": "iapetus",
+  "name": "Iapetus",
+  "category": "moons",
+  "type": "two-tone-ice",
+  "description": "Saturnian moon with striking two-tone coloration: leading hemisphere dark as coal (Cassini Regio), trailing hemisphere brilliant bright ice.",
+  "assets": {
+    "color": "/assets/moons/iapetus/color.webp",
+    "normal": null,
+    "height": null,
+    "roughness": null,
+    "clouds": null,
+    "atmosphere": null,
+    "preview": "/assets/moons/iapetus/preview.webp",
+    "high": null
+  },
+  "source": {
+    "organization": "NASA / JPL / Space Science Institute",
+    "mission": "Cassini ISS",
+    "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/iapetus.png",
+    "referencePage": "https://photojournal.jpl.nasa.gov/target/Iapetus",
+    "license": "Public Domain (NASA/JPL) / Dr. Fridger Schrempp",
+    "usageNotes": "Global equirectangular map exhibiting the extreme contrast albedo dichotomy."
+  },
+  "manifest": {
+    "source_color": {
+      "path": "assets-source/moons/iapetus/source_color.png",
+      "resolution": "512x256",
+      "size_bytes": 214188,
+      "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/iapetus.png",
+      "license": "Public Domain (NASA/JPL) / Dr. Fridger Schrempp"
+    },
+    "runtime_color": {
+      "path": "public/assets/moons/iapetus/color.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 242256,
+      "format": "WebP (Q88)"
+    },
+    "runtime_preview": {
+      "path": "public/assets/moons/iapetus/preview.webp",
+      "resolution": "512x256",
+      "size_bytes": 38332,
+      "format": "WebP (Q80)"
+    }
+  }
+}

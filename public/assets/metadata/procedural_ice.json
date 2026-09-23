@@ -1,0 +1,50 @@
+{
+  "id": "ice",
+  "name": "Ice World",
+  "category": "procedural",
+  "type": "exoplanet-archetype",
+  "description": "Frozen cryo-world with fractured nitrogen/methane ice plains and translucent blue glacial chasms.",
+  "disclaimer": "Model visualization based on available planetary parameters. Not a direct image.",
+  "assets": {
+    "color": "/assets/procedural/ice/color.webp",
+    "normal": "/assets/procedural/ice/normal.webp",
+    "roughness": "/assets/procedural/ice/roughness.webp",
+    "height": "/assets/procedural/ice/height.webp",
+    "preview": "/assets/procedural/ice/preview.webp",
+    "clouds": null,
+    "atmosphere": null
+  },
+  "source": {
+    "organization": "COSMIC VALUE Mathematical Synthesizer",
+    "algorithm": "3D Spherical Coordinate Fractional Multi-Octave Fractal Noise Generator",
+    "projection": "Equirectangular 2:1 cylindrical",
+    "license": "MIT / Creative Commons CC0 (Educational Project Asset)"
+  },
+  "manifest": {
+    "runtime_color": {
+      "path": "public/assets/procedural/ice/color.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 21374
+    },
+    "runtime_normal": {
+      "path": "public/assets/procedural/ice/normal.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 41080
+    },
+    "runtime_roughness": {
+      "path": "public/assets/procedural/ice/roughness.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 19508
+    },
+    "runtime_height": {
+      "path": "public/assets/procedural/ice/height.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 36460
+    },
+    "runtime_preview": {
+      "path": "public/assets/procedural/ice/preview.webp",
+      "resolution": "512x256",
+      "size_bytes": 2278
+    }
+  }
+}

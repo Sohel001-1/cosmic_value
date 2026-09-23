@@ -1,0 +1,65 @@
+{
+  "id": "moon",
+  "name": "Moon",
+  "category": "moons",
+  "type": "lunar-rocky",
+  "description": "Earth's sole natural satellite, synchronous rotation, characterized by lunar maria and impact craters.",
+  "assets": {
+    "color": "/assets/moons/moon/color.webp",
+    "normal": "/assets/moons/moon/normal.webp",
+    "height": null,
+    "roughness": null,
+    "clouds": null,
+    "atmosphere": null,
+    "preview": "/assets/moons/moon/preview.webp",
+    "high": "/assets/moons/moon/high.webp"
+  },
+  "source": {
+    "organization": "NASA / GSFC / Arizona State University",
+    "mission": "Lunar Reconnaissance Orbiter (LROC WAC + LOLA Altimeter)",
+    "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/moon_4k.jpg",
+    "normals_url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/moon_normals.png",
+    "referencePage": "https://svs.gsfc.nasa.gov/4720",
+    "license": "Public Domain (NASA / SVS / Ruslan Kabatsayev CC-BY-SA 4.0)",
+    "usageNotes": "LROC WAC Hapke-normalized photometric albedo map + LOLA normal/elevation map in 2:1 equirectangular projection."
+  },
+  "manifest": {
+    "source_color": {
+      "path": "assets-source/moons/moon/source_color.jpg",
+      "resolution": "4096x2048",
+      "size_bytes": 1754679,
+      "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/moon_4k.jpg",
+      "license": "Public Domain (NASA / SVS / Ruslan Kabatsayev CC-BY-SA 4.0)"
+    },
+    "runtime_color": {
+      "path": "public/assets/moons/moon/color.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 340450,
+      "format": "WebP (Q88)"
+    },
+    "runtime_preview": {
+      "path": "public/assets/moons/moon/preview.webp",
+      "resolution": "512x256",
+      "size_bytes": 13962,
+      "format": "WebP (Q80)"
+    },
+    "runtime_high": {
+      "path": "public/assets/moons/moon/high.webp",
+      "resolution": "4096x2048",
+      "size_bytes": 1392080,
+      "format": "WebP (Q90)"
+    },
+    "source_normal": {
+      "path": "assets-source/moons/moon/source_normal.png",
+      "resolution": "2048x1024",
+      "size_bytes": 2589692,
+      "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/moon_normals.png"
+    },
+    "runtime_normal": {
+      "path": "public/assets/moons/moon/normal.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 370242,
+      "format": "WebP"
+    }
+  }
+}

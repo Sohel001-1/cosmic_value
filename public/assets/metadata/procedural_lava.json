@@ -1,0 +1,50 @@
+{
+  "id": "lava",
+  "name": "Lava World",
+  "category": "procedural",
+  "type": "exoplanet-archetype",
+  "description": "Ultra-hot rocky world with dark molten basalt plates and glowing silicate/magma fissures.",
+  "disclaimer": "Model visualization based on available planetary parameters. Not a direct image.",
+  "assets": {
+    "color": "/assets/procedural/lava/color.webp",
+    "normal": "/assets/procedural/lava/normal.webp",
+    "roughness": "/assets/procedural/lava/roughness.webp",
+    "height": "/assets/procedural/lava/height.webp",
+    "preview": "/assets/procedural/lava/preview.webp",
+    "clouds": null,
+    "atmosphere": null
+  },
+  "source": {
+    "organization": "COSMIC VALUE Mathematical Synthesizer",
+    "algorithm": "3D Spherical Coordinate Fractional Multi-Octave Fractal Noise Generator",
+    "projection": "Equirectangular 2:1 cylindrical",
+    "license": "MIT / Creative Commons CC0 (Educational Project Asset)"
+  },
+  "manifest": {
+    "runtime_color": {
+      "path": "public/assets/procedural/lava/color.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 98408
+    },
+    "runtime_normal": {
+      "path": "public/assets/procedural/lava/normal.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 133694
+    },
+    "runtime_roughness": {
+      "path": "public/assets/procedural/lava/roughness.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 45568
+    },
+    "runtime_height": {
+      "path": "public/assets/procedural/lava/height.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 69270
+    },
+    "runtime_preview": {
+      "path": "public/assets/procedural/lava/preview.webp",
+      "resolution": "512x256",
+      "size_bytes": 10248
+    }
+  }
+}

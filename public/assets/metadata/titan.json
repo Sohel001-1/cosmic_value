@@ -1,0 +1,46 @@
+{
+  "id": "titan",
+  "name": "Titan",
+  "category": "moons",
+  "type": "dense-atmosphere-organic",
+  "description": "Largest moon of Saturn, enveloped in a dense nitrogen-methane atmosphere with liquid hydrocarbon lakes and seas.",
+  "assets": {
+    "color": "/assets/moons/titan/color.webp",
+    "normal": null,
+    "height": null,
+    "roughness": null,
+    "clouds": null,
+    "atmosphere": null,
+    "preview": "/assets/moons/titan/preview.webp",
+    "high": null
+  },
+  "source": {
+    "organization": "NASA / JPL / Space Science Institute / University of Arizona",
+    "mission": "Cassini VIMS & ISS Infrared",
+    "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/titan.png",
+    "referencePage": "https://photojournal.jpl.nasa.gov/target/Titan",
+    "license": "Public Domain (NASA / JPL / SSI) / Magenta Meteorite & Oleg Pluton CC-BY 4.0",
+    "usageNotes": "Infrared surface map penetrating photochemical atmospheric haze."
+  },
+  "manifest": {
+    "source_color": {
+      "path": "assets-source/moons/titan/source_color.png",
+      "resolution": "512x256",
+      "size_bytes": 47273,
+      "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/titan.png",
+      "license": "Public Domain (NASA / JPL / SSI) / Magenta Meteorite & Oleg Pluton CC-BY 4.0"
+    },
+    "runtime_color": {
+      "path": "public/assets/moons/titan/color.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 15954,
+      "format": "WebP (Q88)"
+    },
+    "runtime_preview": {
+      "path": "public/assets/moons/titan/preview.webp",
+      "resolution": "512x256",
+      "size_bytes": 1574,
+      "format": "WebP (Q80)"
+    }
+  }
+}

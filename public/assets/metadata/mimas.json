@@ -1,0 +1,46 @@
+{
+  "id": "mimas",
+  "name": "Mimas",
+  "category": "moons",
+  "type": "cratered-ice",
+  "description": "Saturnian moon dominated by the giant impact crater Herschel, giving it a distinctive Death Star resemblance.",
+  "assets": {
+    "color": "/assets/moons/mimas/color.webp",
+    "normal": null,
+    "height": null,
+    "roughness": null,
+    "clouds": null,
+    "atmosphere": null,
+    "preview": "/assets/moons/mimas/preview.webp",
+    "high": null
+  },
+  "source": {
+    "organization": "NASA / JPL / Space Science Institute",
+    "mission": "Cassini ISS",
+    "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/mimas.png",
+    "referencePage": "https://photojournal.jpl.nasa.gov/target/Mimas",
+    "license": "Public Domain (NASA / JPL / SSI)",
+    "usageNotes": "Equirectangular mosaic from Cassini ISS narrow and wide-angle cameras."
+  },
+  "manifest": {
+    "source_color": {
+      "path": "assets-source/moons/mimas/source_color.png",
+      "resolution": "512x256",
+      "size_bytes": 103573,
+      "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/mimas.png",
+      "license": "Public Domain (NASA / JPL / SSI)"
+    },
+    "runtime_color": {
+      "path": "public/assets/moons/mimas/color.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 88946,
+      "format": "WebP (Q88)"
+    },
+    "runtime_preview": {
+      "path": "public/assets/moons/mimas/preview.webp",
+      "resolution": "512x256",
+      "size_bytes": 12856,
+      "format": "WebP (Q80)"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "ocean",
+  "name": "Ocean-like Hypothetical World",
+  "category": "procedural",
+  "type": "exoplanet-archetype",
+  "description": "Water-dominated planet with global deep oceans, submerged reefs, and polar ice shelves.",
+  "disclaimer": "Model visualization based on available planetary parameters. Not a direct image.",
+  "assets": {
+    "color": "/assets/procedural/ocean/color.webp",
+    "normal": "/assets/procedural/ocean/normal.webp",
+    "roughness": "/assets/procedural/ocean/roughness.webp",
+    "height": "/assets/procedural/ocean/height.webp",
+    "preview": "/assets/procedural/ocean/preview.webp",
+    "clouds": "/assets/procedural/ocean/clouds.webp",
+    "atmosphere": null
+  },
+  "source": {
+    "organization": "COSMIC VALUE Mathematical Synthesizer",
+    "algorithm": "3D Spherical Coordinate Fractional Multi-Octave Fractal Noise Generator",
+    "projection": "Equirectangular 2:1 cylindrical",
+    "license": "MIT / Creative Commons CC0 (Educational Project Asset)"
+  },
+  "manifest": {
+    "runtime_color": {
+      "path": "public/assets/procedural/ocean/color.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 27502
+    },
+    "runtime_normal": {
+      "path": "public/assets/procedural/ocean/normal.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 12564
+    },
+    "runtime_roughness": {
+      "path": "public/assets/procedural/ocean/roughness.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 9452
+    },
+    "runtime_height": {
+      "path": "public/assets/procedural/ocean/height.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 17944
+    },
+    "runtime_preview": {
+      "path": "public/assets/procedural/ocean/preview.webp",
+      "resolution": "512x256",
+      "size_bytes": 3592
+    },
+    "runtime_clouds": {
+      "path": "public/assets/procedural/ocean/clouds.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 26558
+    }
+  }
+}

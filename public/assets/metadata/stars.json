@@ -1,0 +1,46 @@
+{
+  "id": "stars",
+  "name": "Deep Starfield & Milky Way",
+  "category": "environments",
+  "type": "skybox-panorama",
+  "description": "360-degree all-sky panoramic starfield and Milky Way galaxy projection.",
+  "assets": {
+    "color": "/assets/environments/stars/color.webp",
+    "normal": null,
+    "height": null,
+    "roughness": null,
+    "clouds": null,
+    "atmosphere": null,
+    "preview": "/assets/environments/stars/preview.webp",
+    "high": null
+  },
+  "source": {
+    "organization": "NASA / ESO / Axel Mellinger",
+    "mission": "All-Sky Optical Survey / Tycho-2 Catalogue",
+    "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/milkyway.png",
+    "referencePage": "https://www.eso.org/public/images/eso0932a/",
+    "license": "Creative Commons Attribution 4.0 International (Axel Mellinger / ESO)",
+    "usageNotes": "Equirectangular 360x180 panorama for Three.js background scene environment mapping."
+  },
+  "manifest": {
+    "source_color": {
+      "path": "assets-source/environments/stars/source_color.png",
+      "resolution": "2048x1024",
+      "size_bytes": 1003398,
+      "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/milkyway.png",
+      "license": "Creative Commons Attribution 4.0 International (Axel Mellinger / ESO)"
+    },
+    "runtime_color": {
+      "path": "public/assets/environments/stars/color.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 78400,
+      "format": "WebP (Q88)"
+    },
+    "runtime_preview": {
+      "path": "public/assets/environments/stars/preview.webp",
+      "resolution": "512x256",
+      "size_bytes": 2880,
+      "format": "WebP (Q80)"
+    }
+  }
+}

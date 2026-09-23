@@ -1,0 +1,46 @@
+{
+  "id": "venus",
+  "name": "Venus",
+  "category": "solar-system",
+  "type": "terrestrial",
+  "description": "Second planet from the Sun, enveloped in opaque sulfuric acid and carbon dioxide clouds with radar-mapped basaltic surface.",
+  "assets": {
+    "color": "/assets/solar-system/venus/color.webp",
+    "normal": null,
+    "height": null,
+    "roughness": null,
+    "clouds": null,
+    "atmosphere": null,
+    "preview": "/assets/solar-system/venus/preview.webp",
+    "high": null
+  },
+  "source": {
+    "organization": "NASA / JPL-Caltech / USGS",
+    "mission": "Magellan Synthetic Aperture Radar (SAR) & Pioneer Venus Orbiter",
+    "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/venus.png",
+    "referencePage": "https://photojournal.jpl.nasa.gov/target/Venus",
+    "license": "Public Domain (NASA/JPL)",
+    "usageNotes": "Global radar reflectivity and altimetry mosaic rendered in equirectangular projection."
+  },
+  "manifest": {
+    "source_color": {
+      "path": "assets-source/solar-system/venus/source_color.png",
+      "resolution": "512x256",
+      "size_bytes": 84216,
+      "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/venus.png",
+      "license": "Public Domain (NASA/JPL)"
+    },
+    "runtime_color": {
+      "path": "public/assets/solar-system/venus/color.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 35990,
+      "format": "WebP (Q88)"
+    },
+    "runtime_preview": {
+      "path": "public/assets/solar-system/venus/preview.webp",
+      "resolution": "512x256",
+      "size_bytes": 4074,
+      "format": "WebP (Q80)"
+    }
+  }
+}

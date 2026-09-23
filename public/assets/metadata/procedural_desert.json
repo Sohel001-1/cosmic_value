@@ -1,0 +1,50 @@
+{
+  "id": "desert",
+  "name": "Desert World",
+  "category": "procedural",
+  "type": "exoplanet-archetype",
+  "description": "Arid planet dominated by extensive dune fields, iron oxide badlands, and canyon networks.",
+  "disclaimer": "Model visualization based on available planetary parameters. Not a direct image.",
+  "assets": {
+    "color": "/assets/procedural/desert/color.webp",
+    "normal": "/assets/procedural/desert/normal.webp",
+    "roughness": "/assets/procedural/desert/roughness.webp",
+    "height": "/assets/procedural/desert/height.webp",
+    "preview": "/assets/procedural/desert/preview.webp",
+    "clouds": null,
+    "atmosphere": null
+  },
+  "source": {
+    "organization": "COSMIC VALUE Mathematical Synthesizer",
+    "algorithm": "3D Spherical Coordinate Fractional Multi-Octave Fractal Noise Generator",
+    "projection": "Equirectangular 2:1 cylindrical",
+    "license": "MIT / Creative Commons CC0 (Educational Project Asset)"
+  },
+  "manifest": {
+    "runtime_color": {
+      "path": "public/assets/procedural/desert/color.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 23918
+    },
+    "runtime_normal": {
+      "path": "public/assets/procedural/desert/normal.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 15468
+    },
+    "runtime_roughness": {
+      "path": "public/assets/procedural/desert/roughness.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 11716
+    },
+    "runtime_height": {
+      "path": "public/assets/procedural/desert/height.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 20098
+    },
+    "runtime_preview": {
+      "path": "public/assets/procedural/desert/preview.webp",
+      "resolution": "512x256",
+      "size_bytes": 3176
+    }
+  }
+}

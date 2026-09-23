@@ -1,0 +1,50 @@
+{
+  "id": "unknown",
+  "name": "Unknown / Unclassified Visual Archetype",
+  "category": "procedural",
+  "type": "exoplanet-archetype",
+  "description": "Unclassified candidate exoplanet rendered with neutral balanced spectroscopic placeholder visualization.",
+  "disclaimer": "Model visualization based on available planetary parameters. Not a direct image.",
+  "assets": {
+    "color": "/assets/procedural/unknown/color.webp",
+    "normal": "/assets/procedural/unknown/normal.webp",
+    "roughness": "/assets/procedural/unknown/roughness.webp",
+    "height": "/assets/procedural/unknown/height.webp",
+    "preview": "/assets/procedural/unknown/preview.webp",
+    "clouds": null,
+    "atmosphere": null
+  },
+  "source": {
+    "organization": "COSMIC VALUE Mathematical Synthesizer",
+    "algorithm": "3D Spherical Coordinate Fractional Multi-Octave Fractal Noise Generator",
+    "projection": "Equirectangular 2:1 cylindrical",
+    "license": "MIT / Creative Commons CC0 (Educational Project Asset)"
+  },
+  "manifest": {
+    "runtime_color": {
+      "path": "public/assets/procedural/unknown/color.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 22828
+    },
+    "runtime_normal": {
+      "path": "public/assets/procedural/unknown/normal.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 17032
+    },
+    "runtime_roughness": {
+      "path": "public/assets/procedural/unknown/roughness.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 12546
+    },
+    "runtime_height": {
+      "path": "public/assets/procedural/unknown/height.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 20790
+    },
+    "runtime_preview": {
+      "path": "public/assets/procedural/unknown/preview.webp",
+      "resolution": "512x256",
+      "size_bytes": 3340
+    }
+  }
+}

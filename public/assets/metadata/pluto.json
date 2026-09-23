@@ -1,0 +1,46 @@
+{
+  "id": "pluto",
+  "name": "Pluto",
+  "category": "solar-system",
+  "type": "dwarf-planet",
+  "description": "Dwarf planet in the Kuiper belt featuring nitrogen ice plains (Sputnik Planitia), water-ice mountains, and tholin deposits.",
+  "assets": {
+    "color": "/assets/solar-system/pluto/color.webp",
+    "normal": null,
+    "height": null,
+    "roughness": null,
+    "clouds": null,
+    "atmosphere": null,
+    "preview": "/assets/solar-system/pluto/preview.webp",
+    "high": null
+  },
+  "source": {
+    "organization": "NASA / Johns Hopkins University Applied Physics Laboratory / Southwest Research Institute",
+    "mission": "New Horizons (LORRI / Ralph MVIC)",
+    "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/pluto.png",
+    "referencePage": "https://photojournal.jpl.nasa.gov/catalog/PIA19952",
+    "license": "Public Domain (NASA/JHUAPL/SwRI) / Kexitt & Oleg Pluton CC-BY 4.0",
+    "usageNotes": "Global equirectangular mosaic combining New Horizons flyby imagery with photometric balancing."
+  },
+  "manifest": {
+    "source_color": {
+      "path": "assets-source/solar-system/pluto/source_color.png",
+      "resolution": "512x256",
+      "size_bytes": 193500,
+      "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/pluto.png",
+      "license": "Public Domain (NASA/JHUAPL/SwRI) / Kexitt & Oleg Pluton CC-BY 4.0"
+    },
+    "runtime_color": {
+      "path": "public/assets/solar-system/pluto/color.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 133712,
+      "format": "WebP (Q88)"
+    },
+    "runtime_preview": {
+      "path": "public/assets/solar-system/pluto/preview.webp",
+      "resolution": "512x256",
+      "size_bytes": 20478,
+      "format": "WebP (Q80)"
+    }
+  }
+}

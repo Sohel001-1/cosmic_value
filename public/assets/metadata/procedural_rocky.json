@@ -1,0 +1,50 @@
+{
+  "id": "rocky",
+  "name": "Rocky Terrestrial World",
+  "category": "procedural",
+  "type": "exoplanet-archetype",
+  "description": "Silicate-crusted rocky planet with varied basaltic topography and rugged highlands.",
+  "disclaimer": "Model visualization based on available planetary parameters. Not a direct image.",
+  "assets": {
+    "color": "/assets/procedural/rocky/color.webp",
+    "normal": "/assets/procedural/rocky/normal.webp",
+    "roughness": "/assets/procedural/rocky/roughness.webp",
+    "height": "/assets/procedural/rocky/height.webp",
+    "preview": "/assets/procedural/rocky/preview.webp",
+    "clouds": null,
+    "atmosphere": null
+  },
+  "source": {
+    "organization": "COSMIC VALUE Mathematical Synthesizer",
+    "algorithm": "3D Spherical Coordinate Fractional Multi-Octave Fractal Noise Generator",
+    "projection": "Equirectangular 2:1 cylindrical",
+    "license": "MIT / Creative Commons CC0 (Educational Project Asset)"
+  },
+  "manifest": {
+    "runtime_color": {
+      "path": "public/assets/procedural/rocky/color.webp",
+      "resolution": "4096x2048",
+      "size_bytes": 96464
+    },
+    "runtime_normal": {
+      "path": "public/assets/procedural/rocky/normal.webp",
+      "resolution": "4096x2048",
+      "size_bytes": 77752
+    },
+    "runtime_roughness": {
+      "path": "public/assets/procedural/rocky/roughness.webp",
+      "resolution": "4096x2048",
+      "size_bytes": 45026
+    },
+    "runtime_height": {
+      "path": "public/assets/procedural/rocky/height.webp",
+      "resolution": "4096x2048",
+      "size_bytes": 91018
+    },
+    "runtime_preview": {
+      "path": "public/assets/procedural/rocky/preview.webp",
+      "resolution": "512x256",
+      "size_bytes": 5204
+    }
+  }
+}

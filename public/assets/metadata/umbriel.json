@@ -1,0 +1,46 @@
+{
+  "id": "umbriel",
+  "name": "Umbriel",
+  "category": "moons",
+  "type": "dark-cratered-ice",
+  "description": "Darkest of the Uranian moons with uniform low albedo and the mysterious bright ring feature Wunda at the equator.",
+  "assets": {
+    "color": "/assets/moons/umbriel/color.webp",
+    "normal": null,
+    "height": null,
+    "roughness": null,
+    "clouds": null,
+    "atmosphere": null,
+    "preview": "/assets/moons/umbriel/preview.webp",
+    "high": null
+  },
+  "source": {
+    "organization": "NASA / JPL",
+    "mission": "Voyager 2",
+    "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/umbriel.png",
+    "referencePage": "https://photojournal.jpl.nasa.gov/target/Umbriel",
+    "license": "Public Domain (NASA/JPL) / Kexitt & Oleg Pluton CC-BY 4.0",
+    "usageNotes": "Voyager 2 calibrated mosaic in equirectangular projection."
+  },
+  "manifest": {
+    "source_color": {
+      "path": "assets-source/moons/umbriel/source_color.png",
+      "resolution": "512x256",
+      "size_bytes": 125388,
+      "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/umbriel.png",
+      "license": "Public Domain (NASA/JPL) / Kexitt & Oleg Pluton CC-BY 4.0"
+    },
+    "runtime_color": {
+      "path": "public/assets/moons/umbriel/color.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 90524,
+      "format": "WebP (Q88)"
+    },
+    "runtime_preview": {
+      "path": "public/assets/moons/umbriel/preview.webp",
+      "resolution": "512x256",
+      "size_bytes": 12898,
+      "format": "WebP (Q80)"
+    }
+  }
+}

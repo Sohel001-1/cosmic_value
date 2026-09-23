@@ -1,0 +1,46 @@
+{
+  "id": "miranda",
+  "name": "Miranda",
+  "category": "moons",
+  "type": "chaotic-terrain",
+  "description": "Smallest and innermost of the round Uranian moons, exhibiting extreme geological diversity with giant coronae and chevron cliffs (Verona Rupes).",
+  "assets": {
+    "color": "/assets/moons/miranda/color.webp",
+    "normal": null,
+    "height": null,
+    "roughness": null,
+    "clouds": null,
+    "atmosphere": null,
+    "preview": "/assets/moons/miranda/preview.webp",
+    "high": null
+  },
+  "source": {
+    "organization": "NASA / JPL",
+    "mission": "Voyager 2 Close Flyby",
+    "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/miranda.png",
+    "referencePage": "https://photojournal.jpl.nasa.gov/target/Miranda",
+    "license": "Public Domain (NASA/JPL) / Snowfall & Oleg Pluton CC-BY 4.0",
+    "usageNotes": "High-resolution Voyager 2 close approach mosaic projected in equirectangular format."
+  },
+  "manifest": {
+    "source_color": {
+      "path": "assets-source/moons/miranda/source_color.png",
+      "resolution": "512x256",
+      "size_bytes": 143231,
+      "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/miranda.png",
+      "license": "Public Domain (NASA/JPL) / Snowfall & Oleg Pluton CC-BY 4.0"
+    },
+    "runtime_color": {
+      "path": "public/assets/moons/miranda/color.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 92262,
+      "format": "WebP (Q88)"
+    },
+    "runtime_preview": {
+      "path": "public/assets/moons/miranda/preview.webp",
+      "resolution": "512x256",
+      "size_bytes": 12268,
+      "format": "WebP (Q80)"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "europa",
+  "name": "Europa",
+  "category": "moons",
+  "type": "ocean-ice",
+  "description": "Galilean moon harboring a global subsurface liquid saltwater ocean beneath a fractured water-ice lithosphere.",
+  "assets": {
+    "color": "/assets/moons/europa/color.webp",
+    "normal": null,
+    "height": null,
+    "roughness": null,
+    "clouds": null,
+    "atmosphere": null,
+    "preview": "/assets/moons/europa/preview.webp",
+    "high": null
+  },
+  "source": {
+    "organization": "NASA / JPL / DLR / USGS",
+    "mission": "Galileo SSI & Voyager 2",
+    "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/europa.png",
+    "referencePage": "https://photojournal.jpl.nasa.gov/target/Europa",
+    "license": "Public Domain (NASA / JPL) / Oleg Pluton CC-BY 4.0",
+    "usageNotes": "Equirectangular map showing extensive intersecting lineae, cycloids, and chaotic terrain."
+  },
+  "manifest": {
+    "source_color": {
+      "path": "assets-source/moons/europa/source_color.png",
+      "resolution": "512x256",
+      "size_bytes": 163038,
+      "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/europa.png",
+      "license": "Public Domain (NASA / JPL) / Oleg Pluton CC-BY 4.0"
+    },
+    "runtime_color": {
+      "path": "public/assets/moons/europa/color.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 87216,
+      "format": "WebP (Q88)"
+    },
+    "runtime_preview": {
+      "path": "public/assets/moons/europa/preview.webp",
+      "resolution": "512x256",
+      "size_bytes": 9282,
+      "format": "WebP (Q80)"
+    }
+  }
+}

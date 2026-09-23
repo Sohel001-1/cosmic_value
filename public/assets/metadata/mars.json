@@ -1,0 +1,46 @@
+{
+  "id": "mars",
+  "name": "Mars",
+  "category": "solar-system",
+  "type": "desert-rocky",
+  "description": "Fourth planet from the Sun, dry desert world with ferric oxide surface, polar ice caps, and colossal volcanic shields.",
+  "assets": {
+    "color": "/assets/solar-system/mars/color.webp",
+    "normal": null,
+    "height": null,
+    "roughness": null,
+    "clouds": null,
+    "atmosphere": null,
+    "preview": "/assets/solar-system/mars/preview.webp",
+    "high": null
+  },
+  "source": {
+    "organization": "NASA / JPL / USGS Astrogeology Science Center",
+    "mission": "Viking Orbiter 1 & 2 / Mars Global Surveyor MOLA",
+    "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/mars.png",
+    "referencePage": "https://astrogeology.usgs.gov/search/map/Mars/Global-Mosaics/Mars_Viking_MDIM21_ClrMosaic_global_232m",
+    "license": "Public Domain (NASA / USGS)",
+    "usageNotes": "USGS Viking MDIM 2.1 calibrated color mosaic. Fully spherical equirectangular map."
+  },
+  "manifest": {
+    "source_color": {
+      "path": "assets-source/solar-system/mars/source_color.png",
+      "resolution": "512x256",
+      "size_bytes": 169665,
+      "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/mars.png",
+      "license": "Public Domain (NASA / USGS)"
+    },
+    "runtime_color": {
+      "path": "public/assets/solar-system/mars/color.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 107516,
+      "format": "WebP (Q88)"
+    },
+    "runtime_preview": {
+      "path": "public/assets/solar-system/mars/preview.webp",
+      "resolution": "512x256",
+      "size_bytes": 13334,
+      "format": "WebP (Q80)"
+    }
+  }
+}

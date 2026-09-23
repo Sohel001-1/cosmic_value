@@ -1,0 +1,1260 @@
+{
+  "mercury": {
+    "id": "mercury",
+    "name": "Mercury",
+    "category": "solar-system",
+    "type": "rocky",
+    "description": "Innermost terrestrial planet, heavily cratered with high density iron core.",
+    "assets": {
+      "color": "/assets/solar-system/mercury/color.webp",
+      "normal": null,
+      "height": null,
+      "roughness": null,
+      "clouds": null,
+      "atmosphere": null,
+      "preview": "/assets/solar-system/mercury/preview.webp",
+      "high": "/assets/solar-system/mercury/high.webp"
+    },
+    "source": {
+      "organization": "NASA / JPL / JHUAPL / Carnegie Institution of Washington",
+      "mission": "MESSENGER (Mercury Dual Imaging System)",
+      "url": "https://astrogeology.usgs.gov/search/map/mercury_messenger_mdis_global_color_mosaic_665m",
+      "referencePage": "https://photojournal.jpl.nasa.gov/target/Mercury",
+      "license": "Public Domain (NASA/USGS) / CC-BY 4.0 (cartographic processing)",
+      "usageNotes": "Equirectangular projection from MESSENGER global MDIS mosaic. Free for educational and non-commercial scientific visualization."
+    },
+    "manifest": {
+      "source_color": {
+        "path": "remote:Mercury_MESSENGER_ClrMosaic_global_665m_v3.tif",
+        "resolution": "23054x11527",
+        "size_bytes": 797507691,
+        "url": "https://planetarymaps.usgs.gov/mosaic/Mercury_MESSENGER_ClrMosaic_global_665m_v3.tif",
+        "license": "Public Domain (NASA/USGS) / CC-BY 4.0 (cartographic processing)"
+      },
+      "runtime_color": {
+        "path": "public/assets/solar-system/mercury/color.webp",
+        "resolution": "4096x2048",
+        "size_bytes": 2942556,
+        "format": "WebP (Q92)"
+      },
+      "runtime_preview": {
+        "path": "public/assets/solar-system/mercury/preview.webp",
+        "resolution": "1024x512",
+        "size_bytes": 140842,
+        "format": "WebP (Q86)"
+      },
+      "runtime_high": {
+        "path": "public/assets/solar-system/mercury/high.webp",
+        "resolution": "8192x4096",
+        "size_bytes": 12528732,
+        "format": "WebP (Q94)"
+      }
+    }
+  },
+  "venus": {
+    "id": "venus",
+    "name": "Venus",
+    "category": "solar-system",
+    "type": "terrestrial",
+    "description": "Second planet from the Sun, enveloped in opaque sulfuric acid and carbon dioxide clouds with radar-mapped basaltic surface.",
+    "assets": {
+      "color": "/assets/solar-system/venus/color.webp",
+      "normal": null,
+      "height": null,
+      "roughness": null,
+      "clouds": null,
+      "atmosphere": null,
+      "preview": "/assets/solar-system/venus/preview.webp",
+      "high": null
+    },
+    "source": {
+      "organization": "NASA / JPL-Caltech / USGS",
+      "mission": "Magellan Synthetic Aperture Radar (SAR) & Pioneer Venus Orbiter",
+      "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/venus.png",
+      "referencePage": "https://photojournal.jpl.nasa.gov/target/Venus",
+      "license": "Public Domain (NASA/JPL)",
+      "usageNotes": "Global radar reflectivity and altimetry mosaic rendered in equirectangular projection."
+    },
+    "manifest": {
+      "source_color": {
+        "path": "assets-source/solar-system/venus/source_color.png",
+        "resolution": "512x256",
+        "size_bytes": 84216,
+        "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/venus.png",
+        "license": "Public Domain (NASA/JPL)"
+      },
+      "runtime_color": {
+        "path": "public/assets/solar-system/venus/color.webp",
+        "resolution": "2048x1024",
+        "size_bytes": 35990,
+        "format": "WebP (Q88)"
+      },
+      "runtime_preview": {
+        "path": "public/assets/solar-system/venus/preview.webp",
+        "resolution": "512x256",
+        "size_bytes": 4074,
+        "format": "WebP (Q80)"
+      }
+    }
+  },
+  "earth": {
+    "id": "earth",
+    "name": "Earth",
+    "category": "solar-system",
+    "type": "habitable-ocean",
+    "description": "Third planet from the Sun, home to liquid water oceans, dynamic atmospheric cloud systems, and life.",
+    "assets": {
+      "color": "/assets/solar-system/earth/color.webp",
+      "normal": null,
+      "height": null,
+      "roughness": null,
+      "clouds": "/assets/solar-system/earth/clouds.webp",
+      "atmosphere": null,
+      "preview": "/assets/solar-system/earth/preview.webp",
+      "high": null
+    },
+    "source": {
+      "organization": "NASA Goddard Space Flight Center / Visible Earth Team",
+      "mission": "Terra / Aqua MODIS (Blue Marble Next Generation)",
+      "url": "https://eoimages.gsfc.nasa.gov/images/imagerecords/57000/57752/land_shallow_topo_2048.jpg",
+      "clouds_url": "https://eoimages.gsfc.nasa.gov/images/imagerecords/57000/57747/cloud_combined_2048.jpg",
+      "referencePage": "https://visibleearth.nasa.gov/images/57752/blue-marble-land-surface-shallow-water-and-shaded-topography",
+      "license": "Public Domain (NASA / Reto Stockli)",
+      "usageNotes": "Equirectangular cylindrical projection. Clouds combined from MODIS satellite observations. Credit: Reto Stockli, NASA Earth Observatory."
+    },
+    "manifest": {
+      "source_color": {
+        "path": "assets-source/solar-system/earth/source_color.jpg",
+        "resolution": "2048x1024",
+        "size_bytes": 238676,
+        "url": "https://eoimages.gsfc.nasa.gov/images/imagerecords/57000/57752/land_shallow_topo_2048.jpg",
+        "license": "Public Domain (NASA / Reto Stockli)"
+      },
+      "runtime_color": {
+        "path": "public/assets/solar-system/earth/color.webp",
+        "resolution": "2048x1024",
+        "size_bytes": 205484,
+        "format": "WebP (Q88)"
+      },
+      "runtime_preview": {
+        "path": "public/assets/solar-system/earth/preview.webp",
+        "resolution": "512x256",
+        "size_bytes": 15452,
+        "format": "WebP (Q80)"
+      },
+      "source_clouds": {
+        "path": "assets-source/solar-system/earth/source_clouds.jpg",
+        "resolution": "2048x1024",
+        "size_bytes": 829367,
+        "url": "https://eoimages.gsfc.nasa.gov/images/imagerecords/57000/57747/cloud_combined_2048.jpg"
+      },
+      "runtime_clouds": {
+        "path": "public/assets/solar-system/earth/clouds.webp",
+        "resolution": "2048x1024",
+        "size_bytes": 512684,
+        "format": "WebP"
+      }
+    }
+  },
+  "mars": {
+    "id": "mars",
+    "name": "Mars",
+    "category": "solar-system",
+    "type": "desert-rocky",
+    "description": "Fourth planet from the Sun, dry desert world with ferric oxide surface, polar ice caps, and colossal volcanic shields.",
+    "assets": {
+      "color": "/assets/solar-system/mars/color.webp",
+      "normal": null,
+      "height": null,
+      "roughness": null,
+      "clouds": null,
+      "atmosphere": null,
+      "preview": "/assets/solar-system/mars/preview.webp",
+      "high": null
+    },
+    "source": {
+      "organization": "NASA / JPL / USGS Astrogeology Science Center",
+      "mission": "Viking Orbiter 1 & 2 / Mars Global Surveyor MOLA",
+      "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/mars.png",
+      "referencePage": "https://astrogeology.usgs.gov/search/map/Mars/Global-Mosaics/Mars_Viking_MDIM21_ClrMosaic_global_232m",
+      "license": "Public Domain (NASA / USGS)",
+      "usageNotes": "USGS Viking MDIM 2.1 calibrated color mosaic. Fully spherical equirectangular map."
+    },
+    "manifest": {
+      "source_color": {
+        "path": "assets-source/solar-system/mars/source_color.png",
+        "resolution": "512x256",
+        "size_bytes": 169665,
+        "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/mars.png",
+        "license": "Public Domain (NASA / USGS)"
+      },
+      "runtime_color": {
+        "path": "public/assets/solar-system/mars/color.webp",
+        "resolution": "2048x1024",
+        "size_bytes": 107516,
+        "format": "WebP (Q88)"
+      },
+      "runtime_preview": {
+        "path": "public/assets/solar-system/mars/preview.webp",
+        "resolution": "512x256",
+        "size_bytes": 13334,
+        "format": "WebP (Q80)"
+      }
+    }
+  },
+  "jupiter": {
+    "id": "jupiter",
+    "name": "Jupiter",
+    "category": "solar-system",
+    "type": "gas-giant",
+    "description": "Largest planet in the Solar System, gas giant characterized by alternating zonal belts, zones, and the Great Red Spot.",
+    "assets": {
+      "color": "/assets/solar-system/jupiter/color.webp",
+      "normal": null,
+      "height": null,
+      "roughness": null,
+      "clouds": null,
+      "atmosphere": null,
+      "preview": "/assets/solar-system/jupiter/preview.webp",
+      "high": null
+    },
+    "source": {
+      "organization": "NASA / JPL / Space Science Institute / CICLOPS",
+      "mission": "Cassini Imaging Science Subsystem (ISS) Jupiter Flyby",
+      "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/jupiter.png",
+      "referencePage": "https://photojournal.jpl.nasa.gov/catalog/PIA07782",
+      "license": "Public Domain (NASA/JPL/SSI) / James Hastings-Trew",
+      "usageNotes": "Equirectangular cylindrical projection assembled from Cassini ISS narrow-angle camera observations."
+    },
+    "manifest": {
+      "source_color": {
+        "path": "assets-source/solar-system/jupiter/source_color.png",
+        "resolution": "512x256",
+        "size_bytes": 188533,
+        "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/jupiter.png",
+        "license": "Public Domain (NASA/JPL/SSI) / James Hastings-Trew"
+      },
+      "runtime_color": {
+        "path": "public/assets/solar-system/jupiter/color.webp",
+        "resolution": "2048x1024",
+        "size_bytes": 123684,
+        "format": "WebP (Q88)"
+      },
+      "runtime_preview": {
+        "path": "public/assets/solar-system/jupiter/preview.webp",
+        "resolution": "512x256",
+        "size_bytes": 14516,
+        "format": "WebP (Q80)"
+      }
+    }
+  },
+  "saturn": {
+    "id": "saturn",
+    "name": "Saturn",
+    "category": "solar-system",
+    "type": "gas-giant",
+    "description": "Second-largest planet, ringed gas giant with subtle atmospheric banding and complex ring dynamics.",
+    "assets": {
+      "color": "/assets/solar-system/saturn/color.webp",
+      "normal": null,
+      "height": null,
+      "roughness": null,
+      "clouds": null,
+      "atmosphere": null,
+      "preview": "/assets/solar-system/saturn/preview.webp",
+      "high": null,
+      "rings": "/assets/solar-system/saturn/rings.webp"
+    },
+    "source": {
+      "organization": "NASA / JPL / Space Science Institute",
+      "mission": "Cassini-Huygens Mission",
+      "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/saturn.png",
+      "rings_url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/saturn_rings_radial.png",
+      "referencePage": "https://photojournal.jpl.nasa.gov/target/Saturn",
+      "license": "Public Domain (NASA/JPL/SSI)",
+      "usageNotes": "Equirectangular atmospheric map and 1D radial ring optical depth/color profile."
+    },
+    "manifest": {
+      "source_color": {
+        "path": "assets-source/solar-system/saturn/source_color.png",
+        "resolution": "512x256",
+        "size_bytes": 110692,
+        "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/saturn.png",
+        "license": "Public Domain (NASA/JPL/SSI)"
+      },
+      "runtime_color": {
+        "path": "public/assets/solar-system/saturn/color.webp",
+        "resolution": "2048x1024",
+        "size_bytes": 36580,
+        "format": "WebP (Q88)"
+      },
+      "runtime_preview": {
+        "path": "public/assets/solar-system/saturn/preview.webp",
+        "resolution": "512x256",
+        "size_bytes": 2370,
+        "format": "WebP (Q80)"
+      },
+      "runtime_rings": {
+        "path": "public/assets/solar-system/saturn/rings.webp",
+        "resolution": "256x2",
+        "size_bytes": 576,
+        "format": "WebP (Lossless Alpha)"
+      }
+    }
+  },
+  "uranus": {
+    "id": "uranus",
+    "name": "Uranus",
+    "category": "solar-system",
+    "type": "ice-giant",
+    "description": "Ice giant planet with high methane abundance in upper atmosphere and an extreme 97.8 degree axial tilt.",
+    "assets": {
+      "color": "/assets/solar-system/uranus/color.webp",
+      "normal": null,
+      "height": null,
+      "roughness": null,
+      "clouds": null,
+      "atmosphere": null,
+      "preview": "/assets/solar-system/uranus/preview.webp",
+      "high": null,
+      "rings": "/assets/solar-system/uranus/rings.webp"
+    },
+    "source": {
+      "organization": "NASA / JPL",
+      "mission": "Voyager 2 Planetary Encounter",
+      "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/uranus.png",
+      "rings_url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/uranus_rings.png",
+      "referencePage": "https://photojournal.jpl.nasa.gov/target/Uranus",
+      "license": "Public Domain (NASA/JPL)",
+      "usageNotes": "Voyager 2 narrow-angle camera composite processed in equirectangular projection."
+    },
+    "manifest": {
+      "source_color": {
+        "path": "assets-source/solar-system/uranus/source_color.png",
+        "resolution": "512x256",
+        "size_bytes": 411500,
+        "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/uranus.png",
+        "license": "Public Domain (NASA/JPL)"
+      },
+      "runtime_color": {
+        "path": "public/assets/solar-system/uranus/color.webp",
+        "resolution": "2048x1024",
+        "size_bytes": 18490,
+        "format": "WebP (Q88)"
+      },
+      "runtime_preview": {
+        "path": "public/assets/solar-system/uranus/preview.webp",
+        "resolution": "512x256",
+        "size_bytes": 1396,
+        "format": "WebP (Q80)"
+      },
+      "runtime_rings": {
+        "path": "public/assets/solar-system/uranus/rings.webp",
+        "resolution": "1024x2",
+        "size_bytes": 106,
+        "format": "WebP (Lossless Alpha)"
+      }
+    }
+  },
+  "neptune": {
+    "id": "neptune",
+    "name": "Neptune",
+    "category": "solar-system",
+    "type": "ice-giant",
+    "description": "Outer ice giant planet exhibiting vibrant azure coloration, supersonic jet streams, and high-altitude cirrus streaks.",
+    "assets": {
+      "color": "/assets/solar-system/neptune/color.webp",
+      "normal": null,
+      "height": null,
+      "roughness": null,
+      "clouds": null,
+      "atmosphere": null,
+      "preview": "/assets/solar-system/neptune/preview.webp",
+      "high": null,
+      "rings": "/assets/solar-system/neptune/rings.webp"
+    },
+    "source": {
+      "organization": "NASA / JPL",
+      "mission": "Voyager 2 Neptune Encounter",
+      "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/neptune.png",
+      "rings_url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/neptune_rings.png",
+      "referencePage": "https://photojournal.jpl.nasa.gov/target/Neptune",
+      "license": "Public Domain (NASA/JPL)",
+      "usageNotes": "Voyager 2 Narrow Angle Camera images processed to true-color equirectangular map."
+    },
+    "manifest": {
+      "source_color": {
+        "path": "assets-source/solar-system/neptune/source_color.png",
+        "resolution": "512x256",
+        "size_bytes": 315436,
+        "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/neptune.png",
+        "license": "Public Domain (NASA/JPL)"
+      },
+      "runtime_color": {
+        "path": "public/assets/solar-system/neptune/color.webp",
+        "resolution": "2048x1024",
+        "size_bytes": 12970,
+        "format": "WebP (Q88)"
+      },
+      "runtime_preview": {
+        "path": "public/assets/solar-system/neptune/preview.webp",
+        "resolution": "512x256",
+        "size_bytes": 1062,
+        "format": "WebP (Q80)"
+      },
+      "runtime_rings": {
+        "path": "public/assets/solar-system/neptune/rings.webp",
+        "resolution": "1024x2",
+        "size_bytes": 124,
+        "format": "WebP (Lossless Alpha)"
+      }
+    }
+  },
+  "pluto": {
+    "id": "pluto",
+    "name": "Pluto",
+    "category": "solar-system",
+    "type": "dwarf-planet",
+    "description": "Dwarf planet in the Kuiper belt featuring nitrogen ice plains (Sputnik Planitia), water-ice mountains, and tholin deposits.",
+    "assets": {
+      "color": "/assets/solar-system/pluto/color.webp",
+      "normal": null,
+      "height": null,
+      "roughness": null,
+      "clouds": null,
+      "atmosphere": null,
+      "preview": "/assets/solar-system/pluto/preview.webp",
+      "high": null
+    },
+    "source": {
+      "organization": "NASA / Johns Hopkins University Applied Physics Laboratory / Southwest Research Institute",
+      "mission": "New Horizons (LORRI / Ralph MVIC)",
+      "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/pluto.png",
+      "referencePage": "https://photojournal.jpl.nasa.gov/catalog/PIA19952",
+      "license": "Public Domain (NASA/JHUAPL/SwRI) / Kexitt & Oleg Pluton CC-BY 4.0",
+      "usageNotes": "Global equirectangular mosaic combining New Horizons flyby imagery with photometric balancing."
+    },
+    "manifest": {
+      "source_color": {
+        "path": "assets-source/solar-system/pluto/source_color.png",
+        "resolution": "512x256",
+        "size_bytes": 193500,
+        "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/pluto.png",
+        "license": "Public Domain (NASA/JHUAPL/SwRI) / Kexitt & Oleg Pluton CC-BY 4.0"
+      },
+      "runtime_color": {
+        "path": "public/assets/solar-system/pluto/color.webp",
+        "resolution": "2048x1024",
+        "size_bytes": 133712,
+        "format": "WebP (Q88)"
+      },
+      "runtime_preview": {
+        "path": "public/assets/solar-system/pluto/preview.webp",
+        "resolution": "512x256",
+        "size_bytes": 20478,
+        "format": "WebP (Q80)"
+      }
+    }
+  },
+  "moon": {
+    "id": "moon",
+    "name": "Moon",
+    "category": "moons",
+    "type": "lunar-rocky",
+    "description": "Earth's sole natural satellite, synchronous rotation, characterized by lunar maria and impact craters.",
+    "assets": {
+      "color": "/assets/moons/moon/color.webp",
+      "normal": "/assets/moons/moon/normal.webp",
+      "height": null,
+      "roughness": null,
+      "clouds": null,
+      "atmosphere": null,
+      "preview": "/assets/moons/moon/preview.webp",
+      "high": "/assets/moons/moon/high.webp"
+    },
+    "source": {
+      "organization": "NASA / GSFC / Arizona State University",
+      "mission": "Lunar Reconnaissance Orbiter (LROC WAC + LOLA Altimeter)",
+      "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/moon_4k.jpg",
+      "normals_url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/moon_normals.png",
+      "referencePage": "https://svs.gsfc.nasa.gov/4720",
+      "license": "Public Domain (NASA / SVS / Ruslan Kabatsayev CC-BY-SA 4.0)",
+      "usageNotes": "LROC WAC Hapke-normalized photometric albedo map + LOLA normal/elevation map in 2:1 equirectangular projection."
+    },
+    "manifest": {
+      "source_color": {
+        "path": "assets-source/moons/moon/source_color.jpg",
+        "resolution": "4096x2048",
+        "size_bytes": 1754679,
+        "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/moon_4k.jpg",
+        "license": "Public Domain (NASA / SVS / Ruslan Kabatsayev CC-BY-SA 4.0)"
+      },
+      "runtime_color": {
+        "path": "public/assets/moons/moon/color.webp",
+        "resolution": "2048x1024",
+        "size_bytes": 340450,
+        "format": "WebP (Q88)"
+      },
+      "runtime_preview": {
+        "path": "public/assets/moons/moon/preview.webp",
+        "resolution": "512x256",
+        "size_bytes": 13962,
+        "format": "WebP (Q80)"
+      },
+      "runtime_high": {
+        "path": "public/assets/moons/moon/high.webp",
+        "resolution": "4096x2048",
+        "size_bytes": 1392080,
+        "format": "WebP (Q90)"
+      },
+      "source_normal": {
+        "path": "assets-source/moons/moon/source_normal.png",
+        "resolution": "2048x1024",
+        "size_bytes": 2589692,
+        "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/moon_normals.png"
+      },
+      "runtime_normal": {
+        "path": "public/assets/moons/moon/normal.webp",
+        "resolution": "2048x1024",
+        "size_bytes": 370242,
+        "format": "WebP"
+      }
+    }
+  },
+  "io": {
+    "id": "io",
+    "name": "Io",
+    "category": "moons",
+    "type": "volcanic-sulfur",
+    "description": "Innermost Galilean moon, most volcanically active body in the Solar System driven by extreme tidal heating.",
+    "assets": {
+      "color": "/assets/moons/io/color.webp",
+      "normal": null,
+      "height": null,
+      "roughness": null,
+      "clouds": null,
+      "atmosphere": null,
+      "preview": "/assets/moons/io/preview.webp",
+      "high": null
+    },
+    "source": {
+      "organization": "NASA / JPL / University of Arizona / USGS",
+      "mission": "Galileo Solid State Imaging (SSI) & Voyager 1/2",
+      "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/io.png",
+      "referencePage": "https://photojournal.jpl.nasa.gov/target/Io",
+      "license": "Public Domain (NASA / JPL / USGS)",
+      "usageNotes": "Global color mosaic showing sulfurous plains, volcanic vents (paterae), and active plumes."
+    },
+    "manifest": {
+      "source_color": {
+        "path": "assets-source/moons/io/source_color.png",
+        "resolution": "512x256",
+        "size_bytes": 209713,
+        "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/io.png",
+        "license": "Public Domain (NASA / JPL / USGS)"
+      },
+      "runtime_color": {
+        "path": "public/assets/moons/io/color.webp",
+        "resolution": "2048x1024",
+        "size_bytes": 153120,
+        "format": "WebP (Q88)"
+      },
+      "runtime_preview": {
+        "path": "public/assets/moons/io/preview.webp",
+        "resolution": "512x256",
+        "size_bytes": 23598,
+        "format": "WebP (Q80)"
+      }
+    }
+  },
+  "europa": {
+    "id": "europa",
+    "name": "Europa",
+    "category": "moons",
+    "type": "ocean-ice",
+    "description": "Galilean moon harboring a global subsurface liquid saltwater ocean beneath a fractured water-ice lithosphere.",
+    "assets": {
+      "color": "/assets/moons/europa/color.webp",
+      "normal": null,
+      "height": null,
+      "roughness": null,
+      "clouds": null,
+      "atmosphere": null,
+      "preview": "/assets/moons/europa/preview.webp",
+      "high": null
+    },
+    "source": {
+      "organization": "NASA / JPL / DLR / USGS",
+      "mission": "Galileo SSI & Voyager 2",
+      "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/europa.png",
+      "referencePage": "https://photojournal.jpl.nasa.gov/target/Europa",
+      "license": "Public Domain (NASA / JPL) / Oleg Pluton CC-BY 4.0",
+      "usageNotes": "Equirectangular map showing extensive intersecting lineae, cycloids, and chaotic terrain."
+    },
+    "manifest": {
+      "source_color": {
+        "path": "assets-source/moons/europa/source_color.png",
+        "resolution": "512x256",
+        "size_bytes": 163038,
+        "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/europa.png",
+        "license": "Public Domain (NASA / JPL) / Oleg Pluton CC-BY 4.0"
+      },
+      "runtime_color": {
+        "path": "public/assets/moons/europa/color.webp",
+        "resolution": "2048x1024",
+        "size_bytes": 87216,
+        "format": "WebP (Q88)"
+      },
+      "runtime_preview": {
+        "path": "public/assets/moons/europa/preview.webp",
+        "resolution": "512x256",
+        "size_bytes": 9282,
+        "format": "WebP (Q80)"
+      }
+    }
+  },
+  "ganymede": {
+    "id": "ganymede",
+    "name": "Ganymede",
+    "category": "moons",
+    "type": "icy-differentiated",
+    "description": "Largest moon in the Solar System, possessing its own intrinsic magnetic dynamo, grooved terrain, and dark ancient crust.",
+    "assets": {
+      "color": "/assets/moons/ganymede/color.webp",
+      "normal": null,
+      "height": null,
+      "roughness": null,
+      "clouds": null,
+      "atmosphere": null,
+      "preview": "/assets/moons/ganymede/preview.webp",
+      "high": null
+    },
+    "source": {
+      "organization": "NASA / JPL / USGS Astrogeology",
+      "mission": "Galileo & Voyager Missions",
+      "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/ganymede.png",
+      "referencePage": "https://photojournal.jpl.nasa.gov/target/Ganymede",
+      "license": "Public Domain (NASA / USGS) / Oleg Pluton CC-BY 4.0",
+      "usageNotes": "Global mosaic illustrating bright tectonic grooved terrain and dark cratered polygon regions."
+    },
+    "manifest": {
+      "source_color": {
+        "path": "assets-source/moons/ganymede/source_color.png",
+        "resolution": "512x256",
+        "size_bytes": 165964,
+        "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/ganymede.png",
+        "license": "Public Domain (NASA / USGS) / Oleg Pluton CC-BY 4.0"
+      },
+      "runtime_color": {
+        "path": "public/assets/moons/ganymede/color.webp",
+        "resolution": "2048x1024",
+        "size_bytes": 103058,
+        "format": "WebP (Q88)"
+      },
+      "runtime_preview": {
+        "path": "public/assets/moons/ganymede/preview.webp",
+        "resolution": "512x256",
+        "size_bytes": 14096,
+        "format": "WebP (Q80)"
+      }
+    }
+  },
+  "callisto": {
+    "id": "callisto",
+    "name": "Callisto",
+    "category": "moons",
+    "type": "cratered-ice",
+    "description": "Outermost Galilean moon, heavily cratered ancient pristine surface showing minimal tectonic resurfacing.",
+    "assets": {
+      "color": "/assets/moons/callisto/color.webp",
+      "normal": null,
+      "height": null,
+      "roughness": null,
+      "clouds": null,
+      "atmosphere": null,
+      "preview": "/assets/moons/callisto/preview.webp",
+      "high": null
+    },
+    "source": {
+      "organization": "NASA / JPL / Planetary Data System (PDS)",
+      "mission": "Galileo SSI & Voyager",
+      "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/callisto.png",
+      "referencePage": "https://photojournal.jpl.nasa.gov/target/Callisto",
+      "license": "Public Domain (NASA/PDS) / John van Vliet",
+      "usageNotes": "Equirectangular mosaic from PDS calibrated archives depicting multiring impact basins Valhalla and Asgard."
+    },
+    "manifest": {
+      "source_color": {
+        "path": "assets-source/moons/callisto/source_color.png",
+        "resolution": "512x256",
+        "size_bytes": 217787,
+        "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/callisto.png",
+        "license": "Public Domain (NASA/PDS) / John van Vliet"
+      },
+      "runtime_color": {
+        "path": "public/assets/moons/callisto/color.webp",
+        "resolution": "2048x1024",
+        "size_bytes": 155498,
+        "format": "WebP (Q88)"
+      },
+      "runtime_preview": {
+        "path": "public/assets/moons/callisto/preview.webp",
+        "resolution": "512x256",
+        "size_bytes": 21536,
+        "format": "WebP (Q80)"
+      }
+    }
+  },
+  "titan": {
+    "id": "titan",
+    "name": "Titan",
+    "category": "moons",
+    "type": "dense-atmosphere-organic",
+    "description": "Largest moon of Saturn, enveloped in a dense nitrogen-methane atmosphere with liquid hydrocarbon lakes and seas.",
+    "assets": {
+      "color": "/assets/moons/titan/color.webp",
+      "normal": null,
+      "height": null,
+      "roughness": null,
+      "clouds": null,
+      "atmosphere": null,
+      "preview": "/assets/moons/titan/preview.webp",
+      "high": null
+    },
+    "source": {
+      "organization": "NASA / JPL / Space Science Institute / University of Arizona",
+      "mission": "Cassini VIMS & ISS Infrared",
+      "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/titan.png",
+      "referencePage": "https://photojournal.jpl.nasa.gov/target/Titan",
+      "license": "Public Domain (NASA / JPL / SSI) / Magenta Meteorite & Oleg Pluton CC-BY 4.0",
+      "usageNotes": "Infrared surface map penetrating photochemical atmospheric haze."
+    },
+    "manifest": {
+      "source_color": {
+        "path": "assets-source/moons/titan/source_color.png",
+        "resolution": "512x256",
+        "size_bytes": 47273,
+        "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/titan.png",
+        "license": "Public Domain (NASA / JPL / SSI) / Magenta Meteorite & Oleg Pluton CC-BY 4.0"
+      },
+      "runtime_color": {
+        "path": "public/assets/moons/titan/color.webp",
+        "resolution": "2048x1024",
+        "size_bytes": 15954,
+        "format": "WebP (Q88)"
+      },
+      "runtime_preview": {
+        "path": "public/assets/moons/titan/preview.webp",
+        "resolution": "512x256",
+        "size_bytes": 1574,
+        "format": "WebP (Q80)"
+      }
+    }
+  },
+  "enceladus": {
+    "id": "enceladus",
+    "name": "Enceladus",
+    "category": "moons",
+    "type": "cryovolcanic-ice",
+    "description": "Saturnian moon with high visual albedo, fresh water ice surface, and active cryovolcanic geysers erupting from south polar tiger stripes.",
+    "assets": {
+      "color": "/assets/moons/enceladus/color.webp",
+      "normal": null,
+      "height": null,
+      "roughness": null,
+      "clouds": null,
+      "atmosphere": null,
+      "preview": "/assets/moons/enceladus/preview.webp",
+      "high": null
+    },
+    "source": {
+      "organization": "NASA / JPL / Space Science Institute (CICLOPS Team)",
+      "mission": "Cassini Imaging Science Subsystem",
+      "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/enceladus.png",
+      "referencePage": "https://photojournal.jpl.nasa.gov/target/Enceladus",
+      "license": "Public Domain (NASA / CICLOPS / RVS)",
+      "usageNotes": "Equirectangular false-color and albedo mosaic of Enceladus surface features."
+    },
+    "manifest": {
+      "source_color": {
+        "path": "assets-source/moons/enceladus/source_color.png",
+        "resolution": "512x256",
+        "size_bytes": 174046,
+        "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/enceladus.png",
+        "license": "Public Domain (NASA / CICLOPS / RVS)"
+      },
+      "runtime_color": {
+        "path": "public/assets/moons/enceladus/color.webp",
+        "resolution": "2048x1024",
+        "size_bytes": 181672,
+        "format": "WebP (Q88)"
+      },
+      "runtime_preview": {
+        "path": "public/assets/moons/enceladus/preview.webp",
+        "resolution": "512x256",
+        "size_bytes": 25252,
+        "format": "WebP (Q80)"
+      }
+    }
+  },
+  "iapetus": {
+    "id": "iapetus",
+    "name": "Iapetus",
+    "category": "moons",
+    "type": "two-tone-ice",
+    "description": "Saturnian moon with striking two-tone coloration: leading hemisphere dark as coal (Cassini Regio), trailing hemisphere brilliant bright ice.",
+    "assets": {
+      "color": "/assets/moons/iapetus/color.webp",
+      "normal": null,
+      "height": null,
+      "roughness": null,
+      "clouds": null,
+      "atmosphere": null,
+      "preview": "/assets/moons/iapetus/preview.webp",
+      "high": null
+    },
+    "source": {
+      "organization": "NASA / JPL / Space Science Institute",
+      "mission": "Cassini ISS",
+      "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/iapetus.png",
+      "referencePage": "https://photojournal.jpl.nasa.gov/target/Iapetus",
+      "license": "Public Domain (NASA/JPL) / Dr. Fridger Schrempp",
+      "usageNotes": "Global equirectangular map exhibiting the extreme contrast albedo dichotomy."
+    },
+    "manifest": {
+      "source_color": {
+        "path": "assets-source/moons/iapetus/source_color.png",
+        "resolution": "512x256",
+        "size_bytes": 214188,
+        "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/iapetus.png",
+        "license": "Public Domain (NASA/JPL) / Dr. Fridger Schrempp"
+      },
+      "runtime_color": {
+        "path": "public/assets/moons/iapetus/color.webp",
+        "resolution": "2048x1024",
+        "size_bytes": 242256,
+        "format": "WebP (Q88)"
+      },
+      "runtime_preview": {
+        "path": "public/assets/moons/iapetus/preview.webp",
+        "resolution": "512x256",
+        "size_bytes": 38332,
+        "format": "WebP (Q80)"
+      }
+    }
+  },
+  "rhea": {
+    "id": "rhea",
+    "name": "Rhea",
+    "category": "moons",
+    "type": "cratered-ice",
+    "description": "Second largest moon of Saturn, heavily cratered icy sphere with bright wispy fractures.",
+    "assets": {
+      "color": "/assets/moons/rhea/color.webp",
+      "normal": null,
+      "height": null,
+      "roughness": null,
+      "clouds": null,
+      "atmosphere": null,
+      "preview": "/assets/moons/rhea/preview.webp",
+      "high": null
+    },
+    "source": {
+      "organization": "NASA / JPL / Space Science Institute",
+      "mission": "Cassini ISS",
+      "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/rhea.png",
+      "referencePage": "https://photojournal.jpl.nasa.gov/target/Rhea",
+      "license": "Public Domain (NASA / SSI) / FarGetaNik & Oleg Pluton CC-BY 4.0",
+      "usageNotes": "Equirectangular map compiled from high-resolution Cassini flyby frames."
+    },
+    "manifest": {
+      "source_color": {
+        "path": "assets-source/moons/rhea/source_color.png",
+        "resolution": "512x256",
+        "size_bytes": 172794,
+        "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/rhea.png",
+        "license": "Public Domain (NASA / SSI) / FarGetaNik & Oleg Pluton CC-BY 4.0"
+      },
+      "runtime_color": {
+        "path": "public/assets/moons/rhea/color.webp",
+        "resolution": "2048x1024",
+        "size_bytes": 172820,
+        "format": "WebP (Q88)"
+      },
+      "runtime_preview": {
+        "path": "public/assets/moons/rhea/preview.webp",
+        "resolution": "512x256",
+        "size_bytes": 29110,
+        "format": "WebP (Q80)"
+      }
+    }
+  },
+  "mimas": {
+    "id": "mimas",
+    "name": "Mimas",
+    "category": "moons",
+    "type": "cratered-ice",
+    "description": "Saturnian moon dominated by the giant impact crater Herschel, giving it a distinctive Death Star resemblance.",
+    "assets": {
+      "color": "/assets/moons/mimas/color.webp",
+      "normal": null,
+      "height": null,
+      "roughness": null,
+      "clouds": null,
+      "atmosphere": null,
+      "preview": "/assets/moons/mimas/preview.webp",
+      "high": null
+    },
+    "source": {
+      "organization": "NASA / JPL / Space Science Institute",
+      "mission": "Cassini ISS",
+      "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/mimas.png",
+      "referencePage": "https://photojournal.jpl.nasa.gov/target/Mimas",
+      "license": "Public Domain (NASA / JPL / SSI)",
+      "usageNotes": "Equirectangular mosaic from Cassini ISS narrow and wide-angle cameras."
+    },
+    "manifest": {
+      "source_color": {
+        "path": "assets-source/moons/mimas/source_color.png",
+        "resolution": "512x256",
+        "size_bytes": 103573,
+        "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/mimas.png",
+        "license": "Public Domain (NASA / JPL / SSI)"
+      },
+      "runtime_color": {
+        "path": "public/assets/moons/mimas/color.webp",
+        "resolution": "2048x1024",
+        "size_bytes": 88946,
+        "format": "WebP (Q88)"
+      },
+      "runtime_preview": {
+        "path": "public/assets/moons/mimas/preview.webp",
+        "resolution": "512x256",
+        "size_bytes": 12856,
+        "format": "WebP (Q80)"
+      }
+    }
+  },
+  "titania": {
+    "id": "titania",
+    "name": "Titania",
+    "category": "moons",
+    "type": "faulted-ice",
+    "description": "Largest moon of Uranus, marked by numerous impact craters and deep fault valleys (graben) like Messina Chasma.",
+    "assets": {
+      "color": "/assets/moons/titania/color.webp",
+      "normal": null,
+      "height": null,
+      "roughness": null,
+      "clouds": null,
+      "atmosphere": null,
+      "preview": "/assets/moons/titania/preview.webp",
+      "high": null
+    },
+    "source": {
+      "organization": "NASA / JPL",
+      "mission": "Voyager 2 Uranus Encounter",
+      "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/titania.png",
+      "referencePage": "https://photojournal.jpl.nasa.gov/target/Titania",
+      "license": "Public Domain (NASA/JPL) / Kexitt & Oleg Pluton CC-BY 4.0",
+      "usageNotes": "Voyager 2 flyby images reprojected to cylindrical equirectangular coordinates."
+    },
+    "manifest": {
+      "source_color": {
+        "path": "assets-source/moons/titania/source_color.png",
+        "resolution": "512x256",
+        "size_bytes": 166471,
+        "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/titania.png",
+        "license": "Public Domain (NASA/JPL) / Kexitt & Oleg Pluton CC-BY 4.0"
+      },
+      "runtime_color": {
+        "path": "public/assets/moons/titania/color.webp",
+        "resolution": "2048x1024",
+        "size_bytes": 132106,
+        "format": "WebP (Q88)"
+      },
+      "runtime_preview": {
+        "path": "public/assets/moons/titania/preview.webp",
+        "resolution": "512x256",
+        "size_bytes": 19496,
+        "format": "WebP (Q80)"
+      }
+    }
+  },
+  "oberon": {
+    "id": "oberon",
+    "name": "Oberon",
+    "category": "moons",
+    "type": "cratered-ice",
+    "description": "Outermost major moon of Uranus, heavily cratered with prominent central peaks and dark carbonaceous floor deposits.",
+    "assets": {
+      "color": "/assets/moons/oberon/color.webp",
+      "normal": null,
+      "height": null,
+      "roughness": null,
+      "clouds": null,
+      "atmosphere": null,
+      "preview": "/assets/moons/oberon/preview.webp",
+      "high": null
+    },
+    "source": {
+      "organization": "NASA / JPL",
+      "mission": "Voyager 2 Encounter",
+      "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/oberon.png",
+      "referencePage": "https://photojournal.jpl.nasa.gov/target/Oberon",
+      "license": "Public Domain (NASA/JPL) / Snowfall & Oleg Pluton CC-BY 4.0",
+      "usageNotes": "Equirectangular map synthesized from Voyager 2 highest resolution passes."
+    },
+    "manifest": {
+      "source_color": {
+        "path": "assets-source/moons/oberon/source_color.png",
+        "resolution": "512x256",
+        "size_bytes": 172790,
+        "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/oberon.png",
+        "license": "Public Domain (NASA/JPL) / Snowfall & Oleg Pluton CC-BY 4.0"
+      },
+      "runtime_color": {
+        "path": "public/assets/moons/oberon/color.webp",
+        "resolution": "2048x1024",
+        "size_bytes": 99148,
+        "format": "WebP (Q88)"
+      },
+      "runtime_preview": {
+        "path": "public/assets/moons/oberon/preview.webp",
+        "resolution": "512x256",
+        "size_bytes": 12610,
+        "format": "WebP (Q80)"
+      }
+    }
+  },
+  "ariel": {
+    "id": "ariel",
+    "name": "Ariel",
+    "category": "moons",
+    "type": "tectonic-ice",
+    "description": "Fourth largest moon of Uranus, showing youngest and most extensively tectonically modified surface among Uranian satellites.",
+    "assets": {
+      "color": "/assets/moons/ariel/color.webp",
+      "normal": null,
+      "height": null,
+      "roughness": null,
+      "clouds": null,
+      "atmosphere": null,
+      "preview": "/assets/moons/ariel/preview.webp",
+      "high": null
+    },
+    "source": {
+      "organization": "NASA / JPL",
+      "mission": "Voyager 2",
+      "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/ariel.png",
+      "referencePage": "https://photojournal.jpl.nasa.gov/target/Ariel",
+      "license": "Public Domain (NASA/JPL) / Snowfall & Oleg Pluton CC-BY 4.0",
+      "usageNotes": "Voyager 2 mosaic showing interconnected grabens and smooth floor material."
+    },
+    "manifest": {
+      "source_color": {
+        "path": "assets-source/moons/ariel/source_color.png",
+        "resolution": "512x256",
+        "size_bytes": 162339,
+        "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/ariel.png",
+        "license": "Public Domain (NASA/JPL) / Snowfall & Oleg Pluton CC-BY 4.0"
+      },
+      "runtime_color": {
+        "path": "public/assets/moons/ariel/color.webp",
+        "resolution": "2048x1024",
+        "size_bytes": 99090,
+        "format": "WebP (Q88)"
+      },
+      "runtime_preview": {
+        "path": "public/assets/moons/ariel/preview.webp",
+        "resolution": "512x256",
+        "size_bytes": 14324,
+        "format": "WebP (Q80)"
+      }
+    }
+  },
+  "umbriel": {
+    "id": "umbriel",
+    "name": "Umbriel",
+    "category": "moons",
+    "type": "dark-cratered-ice",
+    "description": "Darkest of the Uranian moons with uniform low albedo and the mysterious bright ring feature Wunda at the equator.",
+    "assets": {
+      "color": "/assets/moons/umbriel/color.webp",
+      "normal": null,
+      "height": null,
+      "roughness": null,
+      "clouds": null,
+      "atmosphere": null,
+      "preview": "/assets/moons/umbriel/preview.webp",
+      "high": null
+    },
+    "source": {
+      "organization": "NASA / JPL",
+      "mission": "Voyager 2",
+      "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/umbriel.png",
+      "referencePage": "https://photojournal.jpl.nasa.gov/target/Umbriel",
+      "license": "Public Domain (NASA/JPL) / Kexitt & Oleg Pluton CC-BY 4.0",
+      "usageNotes": "Voyager 2 calibrated mosaic in equirectangular projection."
+    },
+    "manifest": {
+      "source_color": {
+        "path": "assets-source/moons/umbriel/source_color.png",
+        "resolution": "512x256",
+        "size_bytes": 125388,
+        "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/umbriel.png",
+        "license": "Public Domain (NASA/JPL) / Kexitt & Oleg Pluton CC-BY 4.0"
+      },
+      "runtime_color": {
+        "path": "public/assets/moons/umbriel/color.webp",
+        "resolution": "2048x1024",
+        "size_bytes": 90524,
+        "format": "WebP (Q88)"
+      },
+      "runtime_preview": {
+        "path": "public/assets/moons/umbriel/preview.webp",
+        "resolution": "512x256",
+        "size_bytes": 12898,
+        "format": "WebP (Q80)"
+      }
+    }
+  },
+  "miranda": {
+    "id": "miranda",
+    "name": "Miranda",
+    "category": "moons",
+    "type": "chaotic-terrain",
+    "description": "Smallest and innermost of the round Uranian moons, exhibiting extreme geological diversity with giant coronae and chevron cliffs (Verona Rupes).",
+    "assets": {
+      "color": "/assets/moons/miranda/color.webp",
+      "normal": null,
+      "height": null,
+      "roughness": null,
+      "clouds": null,
+      "atmosphere": null,
+      "preview": "/assets/moons/miranda/preview.webp",
+      "high": null
+    },
+    "source": {
+      "organization": "NASA / JPL",
+      "mission": "Voyager 2 Close Flyby",
+      "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/miranda.png",
+      "referencePage": "https://photojournal.jpl.nasa.gov/target/Miranda",
+      "license": "Public Domain (NASA/JPL) / Snowfall & Oleg Pluton CC-BY 4.0",
+      "usageNotes": "High-resolution Voyager 2 close approach mosaic projected in equirectangular format."
+    },
+    "manifest": {
+      "source_color": {
+        "path": "assets-source/moons/miranda/source_color.png",
+        "resolution": "512x256",
+        "size_bytes": 143231,
+        "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/miranda.png",
+        "license": "Public Domain (NASA/JPL) / Snowfall & Oleg Pluton CC-BY 4.0"
+      },
+      "runtime_color": {
+        "path": "public/assets/moons/miranda/color.webp",
+        "resolution": "2048x1024",
+        "size_bytes": 92262,
+        "format": "WebP (Q88)"
+      },
+      "runtime_preview": {
+        "path": "public/assets/moons/miranda/preview.webp",
+        "resolution": "512x256",
+        "size_bytes": 12268,
+        "format": "WebP (Q80)"
+      }
+    }
+  },
+  "triton": {
+    "id": "triton",
+    "name": "Triton",
+    "category": "moons",
+    "type": "captured-kuiper-ice",
+    "description": "Largest moon of Neptune in a retrograde orbit, captured Kuiper belt object featuring cantaloupe terrain and active nitrogen geysers.",
+    "assets": {
+      "color": "/assets/moons/triton/color.webp",
+      "normal": null,
+      "height": null,
+      "roughness": null,
+      "clouds": null,
+      "atmosphere": null,
+      "preview": "/assets/moons/triton/preview.webp",
+      "high": null
+    },
+    "source": {
+      "organization": "NASA / JPL / USGS Astrogeology",
+      "mission": "Voyager 2 Neptune Encounter",
+      "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/triton.png",
+      "referencePage": "https://photojournal.jpl.nasa.gov/target/Triton",
+      "license": "Public Domain (NASA/USGS)",
+      "usageNotes": "Voyager 2 clear and color filter mosaic showing south polar terrain and equatorial cryo-volcanic deposits."
+    },
+    "manifest": {
+      "source_color": {
+        "path": "assets-source/moons/triton/source_color.png",
+        "resolution": "512x256",
+        "size_bytes": 151251,
+        "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/triton.png",
+        "license": "Public Domain (NASA/USGS)"
+      },
+      "runtime_color": {
+        "path": "public/assets/moons/triton/color.webp",
+        "resolution": "2048x1024",
+        "size_bytes": 97218,
+        "format": "WebP (Q88)"
+      },
+      "runtime_preview": {
+        "path": "public/assets/moons/triton/preview.webp",
+        "resolution": "512x256",
+        "size_bytes": 13934,
+        "format": "WebP (Q80)"
+      }
+    }
+  },
+  "stars": {
+    "id": "stars",
+    "name": "Deep Starfield & Milky Way",
+    "category": "environments",
+    "type": "skybox-panorama",
+    "description": "360-degree all-sky panoramic starfield and Milky Way galaxy projection.",
+    "assets": {
+      "color": "/assets/environments/stars/color.webp",
+      "normal": null,
+      "height": null,
+      "roughness": null,
+      "clouds": null,
+      "atmosphere": null,
+      "preview": "/assets/environments/stars/preview.webp",
+      "high": null
+    },
+    "source": {
+      "organization": "NASA / ESO / Axel Mellinger",
+      "mission": "All-Sky Optical Survey / Tycho-2 Catalogue",
+      "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/milkyway.png",
+      "referencePage": "https://www.eso.org/public/images/eso0932a/",
+      "license": "Creative Commons Attribution 4.0 International (Axel Mellinger / ESO)",
+      "usageNotes": "Equirectangular 360x180 panorama for Three.js background scene environment mapping."
+    },
+    "manifest": {
+      "source_color": {
+        "path": "assets-source/environments/stars/source_color.png",
+        "resolution": "2048x1024",
+        "size_bytes": 1003398,
+        "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/milkyway.png",
+        "license": "Creative Commons Attribution 4.0 International (Axel Mellinger / ESO)"
+      },
+      "runtime_color": {
+        "path": "public/assets/environments/stars/color.webp",
+        "resolution": "2048x1024",
+        "size_bytes": 78400,
+        "format": "WebP (Q88)"
+      },
+      "runtime_preview": {
+        "path": "public/assets/environments/stars/preview.webp",
+        "resolution": "512x256",
+        "size_bytes": 2880,
+        "format": "WebP (Q80)"
+      }
+    }
+  }
+}

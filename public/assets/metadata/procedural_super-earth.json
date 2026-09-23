@@ -1,0 +1,55 @@
+{
+  "id": "super-earth",
+  "name": "Super-Earth",
+  "category": "procedural",
+  "type": "exoplanet-archetype",
+  "description": "Massive terrestrial world with vast tectonic plates, continents, deep oceans, and dynamic atmospheric cloud bands.",
+  "disclaimer": "Model visualization based on available planetary parameters. Not a direct image.",
+  "assets": {
+    "color": "/assets/procedural/super-earth/color.webp",
+    "normal": "/assets/procedural/super-earth/normal.webp",
+    "roughness": "/assets/procedural/super-earth/roughness.webp",
+    "height": "/assets/procedural/super-earth/height.webp",
+    "preview": "/assets/procedural/super-earth/preview.webp",
+    "clouds": "/assets/procedural/super-earth/clouds.webp",
+    "atmosphere": null
+  },
+  "source": {
+    "organization": "COSMIC VALUE Mathematical Synthesizer",
+    "algorithm": "3D Spherical Coordinate Fractional Multi-Octave Fractal Noise Generator",
+    "projection": "Equirectangular 2:1 cylindrical",
+    "license": "MIT / Creative Commons CC0 (Educational Project Asset)"
+  },
+  "manifest": {
+    "runtime_color": {
+      "path": "public/assets/procedural/super-earth/color.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 43806
+    },
+    "runtime_normal": {
+      "path": "public/assets/procedural/super-earth/normal.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 23832
+    },
+    "runtime_roughness": {
+      "path": "public/assets/procedural/super-earth/roughness.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 19626
+    },
+    "runtime_height": {
+      "path": "public/assets/procedural/super-earth/height.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 27872
+    },
+    "runtime_preview": {
+      "path": "public/assets/procedural/super-earth/preview.webp",
+      "resolution": "512x256",
+      "size_bytes": 5594
+    },
+    "runtime_clouds": {
+      "path": "public/assets/procedural/super-earth/clouds.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 23834
+    }
+  }
+}

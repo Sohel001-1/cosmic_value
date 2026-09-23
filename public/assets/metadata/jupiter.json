@@ -1,0 +1,46 @@
+{
+  "id": "jupiter",
+  "name": "Jupiter",
+  "category": "solar-system",
+  "type": "gas-giant",
+  "description": "Largest planet in the Solar System, gas giant characterized by alternating zonal belts, zones, and the Great Red Spot.",
+  "assets": {
+    "color": "/assets/solar-system/jupiter/color.webp",
+    "normal": null,
+    "height": null,
+    "roughness": null,
+    "clouds": null,
+    "atmosphere": null,
+    "preview": "/assets/solar-system/jupiter/preview.webp",
+    "high": null
+  },
+  "source": {
+    "organization": "NASA / JPL / Space Science Institute / CICLOPS",
+    "mission": "Cassini Imaging Science Subsystem (ISS) Jupiter Flyby",
+    "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/jupiter.png",
+    "referencePage": "https://photojournal.jpl.nasa.gov/catalog/PIA07782",
+    "license": "Public Domain (NASA/JPL/SSI) / James Hastings-Trew",
+    "usageNotes": "Equirectangular cylindrical projection assembled from Cassini ISS narrow-angle camera observations."
+  },
+  "manifest": {
+    "source_color": {
+      "path": "assets-source/solar-system/jupiter/source_color.png",
+      "resolution": "512x256",
+      "size_bytes": 188533,
+      "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/jupiter.png",
+      "license": "Public Domain (NASA/JPL/SSI) / James Hastings-Trew"
+    },
+    "runtime_color": {
+      "path": "public/assets/solar-system/jupiter/color.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 123684,
+      "format": "WebP (Q88)"
+    },
+    "runtime_preview": {
+      "path": "public/assets/solar-system/jupiter/preview.webp",
+      "resolution": "512x256",
+      "size_bytes": 14516,
+      "format": "WebP (Q80)"
+    }
+  }
+}

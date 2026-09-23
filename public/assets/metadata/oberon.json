@@ -1,0 +1,46 @@
+{
+  "id": "oberon",
+  "name": "Oberon",
+  "category": "moons",
+  "type": "cratered-ice",
+  "description": "Outermost major moon of Uranus, heavily cratered with prominent central peaks and dark carbonaceous floor deposits.",
+  "assets": {
+    "color": "/assets/moons/oberon/color.webp",
+    "normal": null,
+    "height": null,
+    "roughness": null,
+    "clouds": null,
+    "atmosphere": null,
+    "preview": "/assets/moons/oberon/preview.webp",
+    "high": null
+  },
+  "source": {
+    "organization": "NASA / JPL",
+    "mission": "Voyager 2 Encounter",
+    "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/oberon.png",
+    "referencePage": "https://photojournal.jpl.nasa.gov/target/Oberon",
+    "license": "Public Domain (NASA/JPL) / Snowfall & Oleg Pluton CC-BY 4.0",
+    "usageNotes": "Equirectangular map synthesized from Voyager 2 highest resolution passes."
+  },
+  "manifest": {
+    "source_color": {
+      "path": "assets-source/moons/oberon/source_color.png",
+      "resolution": "512x256",
+      "size_bytes": 172790,
+      "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/oberon.png",
+      "license": "Public Domain (NASA/JPL) / Snowfall & Oleg Pluton CC-BY 4.0"
+    },
+    "runtime_color": {
+      "path": "public/assets/moons/oberon/color.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 99148,
+      "format": "WebP (Q88)"
+    },
+    "runtime_preview": {
+      "path": "public/assets/moons/oberon/preview.webp",
+      "resolution": "512x256",
+      "size_bytes": 12610,
+      "format": "WebP (Q80)"
+    }
+  }
+}

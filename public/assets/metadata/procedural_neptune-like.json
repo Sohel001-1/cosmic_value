@@ -1,0 +1,55 @@
+{
+  "id": "neptune-like",
+  "name": "Neptune-like",
+  "category": "procedural",
+  "type": "exoplanet-archetype",
+  "description": "Deep azure ice giant with pronounced atmospheric circulation belts and bright methane ice clouds.",
+  "disclaimer": "Model visualization based on available planetary parameters. Not a direct image.",
+  "assets": {
+    "color": "/assets/procedural/neptune-like/color.webp",
+    "normal": "/assets/procedural/neptune-like/normal.webp",
+    "roughness": "/assets/procedural/neptune-like/roughness.webp",
+    "height": "/assets/procedural/neptune-like/height.webp",
+    "preview": "/assets/procedural/neptune-like/preview.webp",
+    "clouds": "/assets/procedural/neptune-like/clouds.webp",
+    "atmosphere": null
+  },
+  "source": {
+    "organization": "COSMIC VALUE Mathematical Synthesizer",
+    "algorithm": "3D Spherical Coordinate Fractional Multi-Octave Fractal Noise Generator",
+    "projection": "Equirectangular 2:1 cylindrical",
+    "license": "MIT / Creative Commons CC0 (Educational Project Asset)"
+  },
+  "manifest": {
+    "runtime_color": {
+      "path": "public/assets/procedural/neptune-like/color.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 51154
+    },
+    "runtime_normal": {
+      "path": "public/assets/procedural/neptune-like/normal.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 99074
+    },
+    "runtime_roughness": {
+      "path": "public/assets/procedural/neptune-like/roughness.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 20486
+    },
+    "runtime_height": {
+      "path": "public/assets/procedural/neptune-like/height.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 52778
+    },
+    "runtime_preview": {
+      "path": "public/assets/procedural/neptune-like/preview.webp",
+      "resolution": "512x256",
+      "size_bytes": 6154
+    },
+    "runtime_clouds": {
+      "path": "public/assets/procedural/neptune-like/clouds.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 59446
+    }
+  }
+}

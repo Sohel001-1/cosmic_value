@@ -1,0 +1,54 @@
+{
+  "id": "neptune",
+  "name": "Neptune",
+  "category": "solar-system",
+  "type": "ice-giant",
+  "description": "Outer ice giant planet exhibiting vibrant azure coloration, supersonic jet streams, and high-altitude cirrus streaks.",
+  "assets": {
+    "color": "/assets/solar-system/neptune/color.webp",
+    "normal": null,
+    "height": null,
+    "roughness": null,
+    "clouds": null,
+    "atmosphere": null,
+    "preview": "/assets/solar-system/neptune/preview.webp",
+    "high": null,
+    "rings": "/assets/solar-system/neptune/rings.webp"
+  },
+  "source": {
+    "organization": "NASA / JPL",
+    "mission": "Voyager 2 Neptune Encounter",
+    "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/neptune.png",
+    "rings_url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/neptune_rings.png",
+    "referencePage": "https://photojournal.jpl.nasa.gov/target/Neptune",
+    "license": "Public Domain (NASA/JPL)",
+    "usageNotes": "Voyager 2 Narrow Angle Camera images processed to true-color equirectangular map."
+  },
+  "manifest": {
+    "source_color": {
+      "path": "assets-source/solar-system/neptune/source_color.png",
+      "resolution": "512x256",
+      "size_bytes": 315436,
+      "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/neptune.png",
+      "license": "Public Domain (NASA/JPL)"
+    },
+    "runtime_color": {
+      "path": "public/assets/solar-system/neptune/color.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 12970,
+      "format": "WebP (Q88)"
+    },
+    "runtime_preview": {
+      "path": "public/assets/solar-system/neptune/preview.webp",
+      "resolution": "512x256",
+      "size_bytes": 1062,
+      "format": "WebP (Q80)"
+    },
+    "runtime_rings": {
+      "path": "public/assets/solar-system/neptune/rings.webp",
+      "resolution": "1024x2",
+      "size_bytes": 124,
+      "format": "WebP (Lossless Alpha)"
+    }
+  }
+}

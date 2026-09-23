@@ -1,0 +1,46 @@
+{
+  "id": "ariel",
+  "name": "Ariel",
+  "category": "moons",
+  "type": "tectonic-ice",
+  "description": "Fourth largest moon of Uranus, showing youngest and most extensively tectonically modified surface among Uranian satellites.",
+  "assets": {
+    "color": "/assets/moons/ariel/color.webp",
+    "normal": null,
+    "height": null,
+    "roughness": null,
+    "clouds": null,
+    "atmosphere": null,
+    "preview": "/assets/moons/ariel/preview.webp",
+    "high": null
+  },
+  "source": {
+    "organization": "NASA / JPL",
+    "mission": "Voyager 2",
+    "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/ariel.png",
+    "referencePage": "https://photojournal.jpl.nasa.gov/target/Ariel",
+    "license": "Public Domain (NASA/JPL) / Snowfall & Oleg Pluton CC-BY 4.0",
+    "usageNotes": "Voyager 2 mosaic showing interconnected grabens and smooth floor material."
+  },
+  "manifest": {
+    "source_color": {
+      "path": "assets-source/moons/ariel/source_color.png",
+      "resolution": "512x256",
+      "size_bytes": 162339,
+      "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/ariel.png",
+      "license": "Public Domain (NASA/JPL) / Snowfall & Oleg Pluton CC-BY 4.0"
+    },
+    "runtime_color": {
+      "path": "public/assets/moons/ariel/color.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 99090,
+      "format": "WebP (Q88)"
+    },
+    "runtime_preview": {
+      "path": "public/assets/moons/ariel/preview.webp",
+      "resolution": "512x256",
+      "size_bytes": 14324,
+      "format": "WebP (Q80)"
+    }
+  }
+}

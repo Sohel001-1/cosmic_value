@@ -1,0 +1,46 @@
+{
+  "id": "rhea",
+  "name": "Rhea",
+  "category": "moons",
+  "type": "cratered-ice",
+  "description": "Second largest moon of Saturn, heavily cratered icy sphere with bright wispy fractures.",
+  "assets": {
+    "color": "/assets/moons/rhea/color.webp",
+    "normal": null,
+    "height": null,
+    "roughness": null,
+    "clouds": null,
+    "atmosphere": null,
+    "preview": "/assets/moons/rhea/preview.webp",
+    "high": null
+  },
+  "source": {
+    "organization": "NASA / JPL / Space Science Institute",
+    "mission": "Cassini ISS",
+    "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/rhea.png",
+    "referencePage": "https://photojournal.jpl.nasa.gov/target/Rhea",
+    "license": "Public Domain (NASA / SSI) / FarGetaNik & Oleg Pluton CC-BY 4.0",
+    "usageNotes": "Equirectangular map compiled from high-resolution Cassini flyby frames."
+  },
+  "manifest": {
+    "source_color": {
+      "path": "assets-source/moons/rhea/source_color.png",
+      "resolution": "512x256",
+      "size_bytes": 172794,
+      "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/rhea.png",
+      "license": "Public Domain (NASA / SSI) / FarGetaNik & Oleg Pluton CC-BY 4.0"
+    },
+    "runtime_color": {
+      "path": "public/assets/moons/rhea/color.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 172820,
+      "format": "WebP (Q88)"
+    },
+    "runtime_preview": {
+      "path": "public/assets/moons/rhea/preview.webp",
+      "resolution": "512x256",
+      "size_bytes": 29110,
+      "format": "WebP (Q80)"
+    }
+  }
+}

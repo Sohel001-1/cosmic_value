@@ -1,0 +1,46 @@
+{
+  "id": "titania",
+  "name": "Titania",
+  "category": "moons",
+  "type": "faulted-ice",
+  "description": "Largest moon of Uranus, marked by numerous impact craters and deep fault valleys (graben) like Messina Chasma.",
+  "assets": {
+    "color": "/assets/moons/titania/color.webp",
+    "normal": null,
+    "height": null,
+    "roughness": null,
+    "clouds": null,
+    "atmosphere": null,
+    "preview": "/assets/moons/titania/preview.webp",
+    "high": null
+  },
+  "source": {
+    "organization": "NASA / JPL",
+    "mission": "Voyager 2 Uranus Encounter",
+    "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/titania.png",
+    "referencePage": "https://photojournal.jpl.nasa.gov/target/Titania",
+    "license": "Public Domain (NASA/JPL) / Kexitt & Oleg Pluton CC-BY 4.0",
+    "usageNotes": "Voyager 2 flyby images reprojected to cylindrical equirectangular coordinates."
+  },
+  "manifest": {
+    "source_color": {
+      "path": "assets-source/moons/titania/source_color.png",
+      "resolution": "512x256",
+      "size_bytes": 166471,
+      "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/titania.png",
+      "license": "Public Domain (NASA/JPL) / Kexitt & Oleg Pluton CC-BY 4.0"
+    },
+    "runtime_color": {
+      "path": "public/assets/moons/titania/color.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 132106,
+      "format": "WebP (Q88)"
+    },
+    "runtime_preview": {
+      "path": "public/assets/moons/titania/preview.webp",
+      "resolution": "512x256",
+      "size_bytes": 19496,
+      "format": "WebP (Q80)"
+    }
+  }
+}

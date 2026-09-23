@@ -1,0 +1,54 @@
+{
+  "id": "uranus",
+  "name": "Uranus",
+  "category": "solar-system",
+  "type": "ice-giant",
+  "description": "Ice giant planet with high methane abundance in upper atmosphere and an extreme 97.8 degree axial tilt.",
+  "assets": {
+    "color": "/assets/solar-system/uranus/color.webp",
+    "normal": null,
+    "height": null,
+    "roughness": null,
+    "clouds": null,
+    "atmosphere": null,
+    "preview": "/assets/solar-system/uranus/preview.webp",
+    "high": null,
+    "rings": "/assets/solar-system/uranus/rings.webp"
+  },
+  "source": {
+    "organization": "NASA / JPL",
+    "mission": "Voyager 2 Planetary Encounter",
+    "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/uranus.png",
+    "rings_url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/uranus_rings.png",
+    "referencePage": "https://photojournal.jpl.nasa.gov/target/Uranus",
+    "license": "Public Domain (NASA/JPL)",
+    "usageNotes": "Voyager 2 narrow-angle camera composite processed in equirectangular projection."
+  },
+  "manifest": {
+    "source_color": {
+      "path": "assets-source/solar-system/uranus/source_color.png",
+      "resolution": "512x256",
+      "size_bytes": 411500,
+      "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/uranus.png",
+      "license": "Public Domain (NASA/JPL)"
+    },
+    "runtime_color": {
+      "path": "public/assets/solar-system/uranus/color.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 18490,
+      "format": "WebP (Q88)"
+    },
+    "runtime_preview": {
+      "path": "public/assets/solar-system/uranus/preview.webp",
+      "resolution": "512x256",
+      "size_bytes": 1396,
+      "format": "WebP (Q80)"
+    },
+    "runtime_rings": {
+      "path": "public/assets/solar-system/uranus/rings.webp",
+      "resolution": "1024x2",
+      "size_bytes": 106,
+      "format": "WebP (Lossless Alpha)"
+    }
+  }
+}

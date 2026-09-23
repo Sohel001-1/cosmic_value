@@ -1,0 +1,46 @@
+{
+  "id": "io",
+  "name": "Io",
+  "category": "moons",
+  "type": "volcanic-sulfur",
+  "description": "Innermost Galilean moon, most volcanically active body in the Solar System driven by extreme tidal heating.",
+  "assets": {
+    "color": "/assets/moons/io/color.webp",
+    "normal": null,
+    "height": null,
+    "roughness": null,
+    "clouds": null,
+    "atmosphere": null,
+    "preview": "/assets/moons/io/preview.webp",
+    "high": null
+  },
+  "source": {
+    "organization": "NASA / JPL / University of Arizona / USGS",
+    "mission": "Galileo Solid State Imaging (SSI) & Voyager 1/2",
+    "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/io.png",
+    "referencePage": "https://photojournal.jpl.nasa.gov/target/Io",
+    "license": "Public Domain (NASA / JPL / USGS)",
+    "usageNotes": "Global color mosaic showing sulfurous plains, volcanic vents (paterae), and active plumes."
+  },
+  "manifest": {
+    "source_color": {
+      "path": "assets-source/moons/io/source_color.png",
+      "resolution": "512x256",
+      "size_bytes": 209713,
+      "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/io.png",
+      "license": "Public Domain (NASA / JPL / USGS)"
+    },
+    "runtime_color": {
+      "path": "public/assets/moons/io/color.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 153120,
+      "format": "WebP (Q88)"
+    },
+    "runtime_preview": {
+      "path": "public/assets/moons/io/preview.webp",
+      "resolution": "512x256",
+      "size_bytes": 23598,
+      "format": "WebP (Q80)"
+    }
+  }
+}

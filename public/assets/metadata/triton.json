@@ -1,0 +1,46 @@
+{
+  "id": "triton",
+  "name": "Triton",
+  "category": "moons",
+  "type": "captured-kuiper-ice",
+  "description": "Largest moon of Neptune in a retrograde orbit, captured Kuiper belt object featuring cantaloupe terrain and active nitrogen geysers.",
+  "assets": {
+    "color": "/assets/moons/triton/color.webp",
+    "normal": null,
+    "height": null,
+    "roughness": null,
+    "clouds": null,
+    "atmosphere": null,
+    "preview": "/assets/moons/triton/preview.webp",
+    "high": null
+  },
+  "source": {
+    "organization": "NASA / JPL / USGS Astrogeology",
+    "mission": "Voyager 2 Neptune Encounter",
+    "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/triton.png",
+    "referencePage": "https://photojournal.jpl.nasa.gov/target/Triton",
+    "license": "Public Domain (NASA/USGS)",
+    "usageNotes": "Voyager 2 clear and color filter mosaic showing south polar terrain and equatorial cryo-volcanic deposits."
+  },
+  "manifest": {
+    "source_color": {
+      "path": "assets-source/moons/triton/source_color.png",
+      "resolution": "512x256",
+      "size_bytes": 151251,
+      "url": "https://raw.githubusercontent.com/Stellarium/stellarium/master/textures/triton.png",
+      "license": "Public Domain (NASA/USGS)"
+    },
+    "runtime_color": {
+      "path": "public/assets/moons/triton/color.webp",
+      "resolution": "2048x1024",
+      "size_bytes": 97218,
+      "format": "WebP (Q88)"
+    },
+    "runtime_preview": {
+      "path": "public/assets/moons/triton/preview.webp",
+      "resolution": "512x256",
+      "size_bytes": 13934,
+      "format": "WebP (Q80)"
+    }
+  }
+}
